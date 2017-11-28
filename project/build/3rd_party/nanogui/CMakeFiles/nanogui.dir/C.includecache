@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/ext/nanovg/src/fontstash.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src/fontstash.h
 ft2build.h
 -
 math.h
 -
 stb_truetype.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/ext/nanovg/src/stb_truetype.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src/stb_truetype.h
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/ext/nanovg/src/nanovg.c
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src/nanovg.c
 stdio.h
 -
 math.h
 -
 nanovg.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/ext/nanovg/src/nanovg.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src/nanovg.h
 fontstash.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/ext/nanovg/src/fontstash.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src/fontstash.h
 stb_image.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/ext/nanovg/src/stb_image.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src/stb_image.h
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/ext/nanovg/src/nanovg.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src/nanovg.h
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/ext/nanovg/src/stb_image.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src/stb_image.h
 stdio.h
 -
 math.h
@@ -50,13 +50,13 @@ stddef.h
 stdint.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/ext/nanovg/src/stb_truetype.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src/stb_truetype.h
 stb_truetype.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/ext/nanovg/src/stb_truetype.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src/stb_truetype.h
 stdio.h
 -
 stb_truetype.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/ext/nanovg/src/stb_truetype.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src/stb_truetype.h
 stdlib.h
 -
 math.h

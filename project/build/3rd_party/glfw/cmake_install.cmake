@@ -1,4 +1,4 @@
-# Install script for directory: /Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/glfw
+# Install script for directory: /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/helenzemelon/Documents/Fall 2017/837/starter2/build/3rd_party/glfw/src/cmake_install.cmake")
+  include("/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/build/3rd_party/glfw/src/cmake_install.cmake")
 
 endif()
 

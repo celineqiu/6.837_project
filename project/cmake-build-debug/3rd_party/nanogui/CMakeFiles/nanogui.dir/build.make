@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/helenzemelon/Documents/Fall 2017/837/project"
+CMAKE_SOURCE_DIR = "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include 3rd_party/nanogui/CMakeFiles/nanogui.dir/depend.make
@@ -61,24 +61,24 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/nanogui_resources.cpp: ../3rd_party/nanogui/resources/Roboto-Bold.ttf
 3rd_party/nanogui/nanogui_resources.cpp: ../3rd_party/nanogui/resources/Roboto-Regular.ttf
 3rd_party/nanogui/nanogui_resources.cpp: ../3rd_party/nanogui/resources/entypo.ttf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Running bin2c"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && ./bin2c nanogui_resources.cpp nanogui_resources.h "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/resources/Roboto-Bold.ttf" "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/resources/Roboto-Regular.ttf" "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/resources/entypo.ttf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Running bin2c"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && ./bin2c nanogui_resources.cpp nanogui_resources.h "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/resources/Roboto-Bold.ttf" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/resources/Roboto-Regular.ttf" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/resources/entypo.ttf"
 
 3rd_party/nanogui/nanogui_resources.h: 3rd_party/nanogui/nanogui_resources.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate 3rd_party/nanogui/nanogui_resources.h
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o: ../3rd_party/nanogui/ext/nanovg/src/nanovg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object 3rd_party/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) -DNVG_BUILD $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o   -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/ext/nanovg/src/nanovg.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object 3rd_party/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) -DNVG_BUILD $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o   -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src/nanovg.c"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) -DNVG_BUILD $(C_INCLUDES) $(C_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/ext/nanovg/src/nanovg.c" > CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) -DNVG_BUILD $(C_INCLUDES) $(C_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src/nanovg.c" > CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) -DNVG_BUILD $(C_INCLUDES) $(C_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/ext/nanovg/src/nanovg.c" -o CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) -DNVG_BUILD $(C_INCLUDES) $(C_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src/nanovg.c" -o CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o.requires:
 
@@ -93,16 +93,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/darwin.mm.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/darwin.mm.o: ../3rd_party/nanogui/src/darwin.mm
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/darwin.mm.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/darwin.mm.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/darwin.mm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/darwin.mm.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/darwin.mm.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/darwin.mm"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/darwin.mm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/darwin.mm.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/darwin.mm" > CMakeFiles/nanogui.dir/src/darwin.mm.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/darwin.mm" > CMakeFiles/nanogui.dir/src/darwin.mm.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/darwin.mm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/darwin.mm.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/darwin.mm" -o CMakeFiles/nanogui.dir/src/darwin.mm.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/darwin.mm" -o CMakeFiles/nanogui.dir/src/darwin.mm.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/darwin.mm.o.requires:
 
@@ -117,16 +117,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o: 3rd_party/nanogui/nanogui_resources.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/nanogui_resources.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui/nanogui_resources.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/nanogui_resources.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui/nanogui_resources.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/nanogui_resources.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui/nanogui_resources.cpp" > CMakeFiles/nanogui.dir/nanogui_resources.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui/nanogui_resources.cpp" > CMakeFiles/nanogui.dir/nanogui_resources.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/nanogui_resources.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui/nanogui_resources.cpp" -o CMakeFiles/nanogui.dir/nanogui_resources.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui/nanogui_resources.cpp" -o CMakeFiles/nanogui.dir/nanogui_resources.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o.requires:
 
@@ -141,16 +141,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/glutil.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/glutil.cpp.o: ../3rd_party/nanogui/src/glutil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/glutil.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/glutil.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/glutil.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/glutil.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/glutil.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/glutil.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/glutil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/glutil.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/glutil.cpp" > CMakeFiles/nanogui.dir/src/glutil.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/glutil.cpp" > CMakeFiles/nanogui.dir/src/glutil.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/glutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/glutil.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/glutil.cpp" -o CMakeFiles/nanogui.dir/src/glutil.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/glutil.cpp" -o CMakeFiles/nanogui.dir/src/glutil.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/glutil.cpp.o.requires:
 
@@ -165,16 +165,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o: ../3rd_party/nanogui/src/common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/common.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/common.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/common.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/common.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/common.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/common.cpp" > CMakeFiles/nanogui.dir/src/common.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/common.cpp" > CMakeFiles/nanogui.dir/src/common.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/common.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/common.cpp" -o CMakeFiles/nanogui.dir/src/common.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/common.cpp" -o CMakeFiles/nanogui.dir/src/common.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o.requires:
 
@@ -189,16 +189,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o: ../3rd_party/nanogui/src/widget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/widget.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/widget.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/widget.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/widget.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/widget.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/widget.cpp" > CMakeFiles/nanogui.dir/src/widget.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/widget.cpp" > CMakeFiles/nanogui.dir/src/widget.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/widget.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/widget.cpp" -o CMakeFiles/nanogui.dir/src/widget.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/widget.cpp" -o CMakeFiles/nanogui.dir/src/widget.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o.requires:
 
@@ -213,16 +213,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o: ../3rd_party/nanogui/src/theme.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/theme.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/theme.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/theme.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/theme.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/theme.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/theme.cpp" > CMakeFiles/nanogui.dir/src/theme.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/theme.cpp" > CMakeFiles/nanogui.dir/src/theme.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/theme.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/theme.cpp" -o CMakeFiles/nanogui.dir/src/theme.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/theme.cpp" -o CMakeFiles/nanogui.dir/src/theme.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o.requires:
 
@@ -237,16 +237,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o: ../3rd_party/nanogui/src/layout.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/layout.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/layout.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/layout.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/layout.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/layout.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/layout.cpp" > CMakeFiles/nanogui.dir/src/layout.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/layout.cpp" > CMakeFiles/nanogui.dir/src/layout.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/layout.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/layout.cpp" -o CMakeFiles/nanogui.dir/src/layout.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/layout.cpp" -o CMakeFiles/nanogui.dir/src/layout.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o.requires:
 
@@ -261,16 +261,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o: ../3rd_party/nanogui/src/screen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/screen.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/screen.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/screen.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/screen.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/screen.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/screen.cpp" > CMakeFiles/nanogui.dir/src/screen.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/screen.cpp" > CMakeFiles/nanogui.dir/src/screen.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/screen.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/screen.cpp" -o CMakeFiles/nanogui.dir/src/screen.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/screen.cpp" -o CMakeFiles/nanogui.dir/src/screen.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o.requires:
 
@@ -285,16 +285,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o: ../3rd_party/nanogui/src/label.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/label.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/label.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/label.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/label.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/label.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/label.cpp" > CMakeFiles/nanogui.dir/src/label.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/label.cpp" > CMakeFiles/nanogui.dir/src/label.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/label.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/label.cpp" -o CMakeFiles/nanogui.dir/src/label.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/label.cpp" -o CMakeFiles/nanogui.dir/src/label.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o.requires:
 
@@ -309,16 +309,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o: ../3rd_party/nanogui/src/window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/window.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/window.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/window.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/window.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/window.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/window.cpp" > CMakeFiles/nanogui.dir/src/window.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/window.cpp" > CMakeFiles/nanogui.dir/src/window.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/window.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/window.cpp" -o CMakeFiles/nanogui.dir/src/window.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/window.cpp" -o CMakeFiles/nanogui.dir/src/window.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o.requires:
 
@@ -333,16 +333,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o: ../3rd_party/nanogui/src/popup.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/popup.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/popup.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/popup.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/popup.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/popup.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/popup.cpp" > CMakeFiles/nanogui.dir/src/popup.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/popup.cpp" > CMakeFiles/nanogui.dir/src/popup.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/popup.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/popup.cpp" -o CMakeFiles/nanogui.dir/src/popup.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/popup.cpp" -o CMakeFiles/nanogui.dir/src/popup.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o.requires:
 
@@ -357,16 +357,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o: ../3rd_party/nanogui/src/checkbox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/checkbox.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/checkbox.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/checkbox.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/checkbox.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/checkbox.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/checkbox.cpp" > CMakeFiles/nanogui.dir/src/checkbox.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/checkbox.cpp" > CMakeFiles/nanogui.dir/src/checkbox.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/checkbox.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/checkbox.cpp" -o CMakeFiles/nanogui.dir/src/checkbox.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/checkbox.cpp" -o CMakeFiles/nanogui.dir/src/checkbox.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o.requires:
 
@@ -381,16 +381,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o: ../3rd_party/nanogui/src/button.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/button.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/button.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/button.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/button.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/button.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/button.cpp" > CMakeFiles/nanogui.dir/src/button.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/button.cpp" > CMakeFiles/nanogui.dir/src/button.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/button.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/button.cpp" -o CMakeFiles/nanogui.dir/src/button.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/button.cpp" -o CMakeFiles/nanogui.dir/src/button.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o.requires:
 
@@ -405,16 +405,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o: ../3rd_party/nanogui/src/popupbutton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/popupbutton.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/popupbutton.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/popupbutton.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/popupbutton.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/popupbutton.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/popupbutton.cpp" > CMakeFiles/nanogui.dir/src/popupbutton.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/popupbutton.cpp" > CMakeFiles/nanogui.dir/src/popupbutton.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/popupbutton.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/popupbutton.cpp" -o CMakeFiles/nanogui.dir/src/popupbutton.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/popupbutton.cpp" -o CMakeFiles/nanogui.dir/src/popupbutton.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o.requires:
 
@@ -429,16 +429,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o: ../3rd_party/nanogui/src/combobox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/combobox.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/combobox.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/combobox.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/combobox.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/combobox.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/combobox.cpp" > CMakeFiles/nanogui.dir/src/combobox.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/combobox.cpp" > CMakeFiles/nanogui.dir/src/combobox.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/combobox.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/combobox.cpp" -o CMakeFiles/nanogui.dir/src/combobox.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/combobox.cpp" -o CMakeFiles/nanogui.dir/src/combobox.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o.requires:
 
@@ -453,16 +453,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o: ../3rd_party/nanogui/src/progressbar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/progressbar.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/progressbar.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/progressbar.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/progressbar.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/progressbar.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/progressbar.cpp" > CMakeFiles/nanogui.dir/src/progressbar.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/progressbar.cpp" > CMakeFiles/nanogui.dir/src/progressbar.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/progressbar.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/progressbar.cpp" -o CMakeFiles/nanogui.dir/src/progressbar.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/progressbar.cpp" -o CMakeFiles/nanogui.dir/src/progressbar.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o.requires:
 
@@ -477,16 +477,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o: ../3rd_party/nanogui/src/slider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/slider.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/slider.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/slider.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/slider.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/slider.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/slider.cpp" > CMakeFiles/nanogui.dir/src/slider.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/slider.cpp" > CMakeFiles/nanogui.dir/src/slider.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/slider.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/slider.cpp" -o CMakeFiles/nanogui.dir/src/slider.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/slider.cpp" -o CMakeFiles/nanogui.dir/src/slider.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o.requires:
 
@@ -501,16 +501,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o: ../3rd_party/nanogui/src/messagedialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/messagedialog.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/messagedialog.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/messagedialog.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/messagedialog.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/messagedialog.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/messagedialog.cpp" > CMakeFiles/nanogui.dir/src/messagedialog.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/messagedialog.cpp" > CMakeFiles/nanogui.dir/src/messagedialog.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/messagedialog.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/messagedialog.cpp" -o CMakeFiles/nanogui.dir/src/messagedialog.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/messagedialog.cpp" -o CMakeFiles/nanogui.dir/src/messagedialog.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o.requires:
 
@@ -525,16 +525,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o: ../3rd_party/nanogui/src/textbox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/textbox.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/textbox.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/textbox.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/textbox.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/textbox.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/textbox.cpp" > CMakeFiles/nanogui.dir/src/textbox.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/textbox.cpp" > CMakeFiles/nanogui.dir/src/textbox.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/textbox.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/textbox.cpp" -o CMakeFiles/nanogui.dir/src/textbox.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/textbox.cpp" -o CMakeFiles/nanogui.dir/src/textbox.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o.requires:
 
@@ -549,16 +549,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o: ../3rd_party/nanogui/src/imagepanel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/imagepanel.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/imagepanel.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/imagepanel.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/imagepanel.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/imagepanel.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/imagepanel.cpp" > CMakeFiles/nanogui.dir/src/imagepanel.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/imagepanel.cpp" > CMakeFiles/nanogui.dir/src/imagepanel.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/imagepanel.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/imagepanel.cpp" -o CMakeFiles/nanogui.dir/src/imagepanel.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/imagepanel.cpp" -o CMakeFiles/nanogui.dir/src/imagepanel.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o.requires:
 
@@ -573,16 +573,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o: ../3rd_party/nanogui/src/imageview.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/imageview.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/imageview.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/imageview.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/imageview.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/imageview.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/imageview.cpp" > CMakeFiles/nanogui.dir/src/imageview.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/imageview.cpp" > CMakeFiles/nanogui.dir/src/imageview.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/imageview.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/imageview.cpp" -o CMakeFiles/nanogui.dir/src/imageview.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/imageview.cpp" -o CMakeFiles/nanogui.dir/src/imageview.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o.requires:
 
@@ -597,16 +597,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o: ../3rd_party/nanogui/src/vscrollpanel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/vscrollpanel.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/vscrollpanel.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/vscrollpanel.cpp" > CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/vscrollpanel.cpp" > CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/vscrollpanel.cpp" -o CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/vscrollpanel.cpp" -o CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o.requires:
 
@@ -621,16 +621,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o: ../3rd_party/nanogui/src/colorwheel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/colorwheel.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/colorwheel.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/colorwheel.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/colorwheel.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/colorwheel.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/colorwheel.cpp" > CMakeFiles/nanogui.dir/src/colorwheel.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/colorwheel.cpp" > CMakeFiles/nanogui.dir/src/colorwheel.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/colorwheel.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/colorwheel.cpp" -o CMakeFiles/nanogui.dir/src/colorwheel.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/colorwheel.cpp" -o CMakeFiles/nanogui.dir/src/colorwheel.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o.requires:
 
@@ -645,16 +645,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o: ../3rd_party/nanogui/src/colorpicker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/colorpicker.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/colorpicker.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/colorpicker.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/colorpicker.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/colorpicker.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/colorpicker.cpp" > CMakeFiles/nanogui.dir/src/colorpicker.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/colorpicker.cpp" > CMakeFiles/nanogui.dir/src/colorpicker.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/colorpicker.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/colorpicker.cpp" -o CMakeFiles/nanogui.dir/src/colorpicker.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/colorpicker.cpp" -o CMakeFiles/nanogui.dir/src/colorpicker.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o.requires:
 
@@ -669,16 +669,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o: ../3rd_party/nanogui/src/graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/graph.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/graph.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/graph.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/graph.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/graph.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/graph.cpp" > CMakeFiles/nanogui.dir/src/graph.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/graph.cpp" > CMakeFiles/nanogui.dir/src/graph.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/graph.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/graph.cpp" -o CMakeFiles/nanogui.dir/src/graph.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/graph.cpp" -o CMakeFiles/nanogui.dir/src/graph.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o.requires:
 
@@ -693,16 +693,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/stackedwidget.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/stackedwidget.cpp.o: ../3rd_party/nanogui/src/stackedwidget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/stackedwidget.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/stackedwidget.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/stackedwidget.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/stackedwidget.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/stackedwidget.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/stackedwidget.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/stackedwidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/stackedwidget.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/stackedwidget.cpp" > CMakeFiles/nanogui.dir/src/stackedwidget.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/stackedwidget.cpp" > CMakeFiles/nanogui.dir/src/stackedwidget.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/stackedwidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/stackedwidget.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/stackedwidget.cpp" -o CMakeFiles/nanogui.dir/src/stackedwidget.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/stackedwidget.cpp" -o CMakeFiles/nanogui.dir/src/stackedwidget.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/stackedwidget.cpp.o.requires:
 
@@ -717,16 +717,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabheader.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabheader.cpp.o: ../3rd_party/nanogui/src/tabheader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabheader.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/tabheader.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/tabheader.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabheader.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/tabheader.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/tabheader.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabheader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/tabheader.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/tabheader.cpp" > CMakeFiles/nanogui.dir/src/tabheader.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/tabheader.cpp" > CMakeFiles/nanogui.dir/src/tabheader.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabheader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/tabheader.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/tabheader.cpp" -o CMakeFiles/nanogui.dir/src/tabheader.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/tabheader.cpp" -o CMakeFiles/nanogui.dir/src/tabheader.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabheader.cpp.o.requires:
 
@@ -741,16 +741,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o: ../3rd_party/nanogui/src/tabwidget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/tabwidget.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/tabwidget.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/tabwidget.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/tabwidget.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/tabwidget.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/tabwidget.cpp" > CMakeFiles/nanogui.dir/src/tabwidget.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/tabwidget.cpp" > CMakeFiles/nanogui.dir/src/tabwidget.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/tabwidget.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/tabwidget.cpp" -o CMakeFiles/nanogui.dir/src/tabwidget.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/tabwidget.cpp" -o CMakeFiles/nanogui.dir/src/tabwidget.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o.requires:
 
@@ -765,16 +765,16 @@ include 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/serializer.cpp.o: 3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/serializer.cpp.o: ../3rd_party/nanogui/src/serializer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/serializer.cpp.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/serializer.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/serializer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/serializer.cpp.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nanogui.dir/src/serializer.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/serializer.cpp"
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/serializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nanogui.dir/src/serializer.cpp.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/serializer.cpp" > CMakeFiles/nanogui.dir/src/serializer.cpp.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/serializer.cpp" > CMakeFiles/nanogui.dir/src/serializer.cpp.i
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/serializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nanogui.dir/src/serializer.cpp.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/src/serializer.cpp" -o CMakeFiles/nanogui.dir/src/serializer.cpp.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/serializer.cpp" -o CMakeFiles/nanogui.dir/src/serializer.cpp.s
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/serializer.cpp.o.requires:
 
@@ -855,9 +855,9 @@ nanogui_EXTERNAL_OBJECTS =
 3rd_party/nanogui/libnanogui.a: 3rd_party/nanogui/CMakeFiles/nanogui.dir/src/serializer.cpp.o
 3rd_party/nanogui/libnanogui.a: 3rd_party/nanogui/CMakeFiles/nanogui.dir/build.make
 3rd_party/nanogui/libnanogui.a: 3rd_party/nanogui/CMakeFiles/nanogui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX static library libnanogui.a"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && $(CMAKE_COMMAND) -P CMakeFiles/nanogui.dir/cmake_clean_target.cmake
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nanogui.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX static library libnanogui.a"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && $(CMAKE_COMMAND) -P CMakeFiles/nanogui.dir/cmake_clean_target.cmake
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nanogui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 3rd_party/nanogui/CMakeFiles/nanogui.dir/build: 3rd_party/nanogui/libnanogui.a
@@ -898,11 +898,11 @@ nanogui_EXTERNAL_OBJECTS =
 .PHONY : 3rd_party/nanogui/CMakeFiles/nanogui.dir/requires
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/clean:
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && $(CMAKE_COMMAND) -P CMakeFiles/nanogui.dir/cmake_clean.cmake
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && $(CMAKE_COMMAND) -P CMakeFiles/nanogui.dir/cmake_clean.cmake
 .PHONY : 3rd_party/nanogui/CMakeFiles/nanogui.dir/clean
 
 3rd_party/nanogui/CMakeFiles/nanogui.dir/depend: 3rd_party/nanogui/nanogui_resources.cpp
 3rd_party/nanogui/CMakeFiles/nanogui.dir/depend: 3rd_party/nanogui/nanogui_resources.h
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/helenzemelon/Documents/Fall 2017/837/project" "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui/CMakeFiles/nanogui.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui/CMakeFiles/nanogui.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : 3rd_party/nanogui/CMakeFiles/nanogui.dir/depend
 

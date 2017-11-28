@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/resources/bin2c.c" "/Users/helenzemelon/Documents/Fall 2017/837/starter2/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/resources/bin2c.c.o"
+  "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/resources/bin2c.c" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/resources/bin2c.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 

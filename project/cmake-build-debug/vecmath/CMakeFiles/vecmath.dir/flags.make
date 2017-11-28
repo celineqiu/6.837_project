@@ -6,5 +6,5 @@ CXX_FLAGS =  --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applicati
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/Users/helenzemelon/Documents/Fall 2017/837/project/vecmath/include" 
+CXX_INCLUDES = -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/vecmath/include" 
 

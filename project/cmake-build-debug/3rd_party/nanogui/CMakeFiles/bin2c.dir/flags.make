@@ -6,5 +6,5 @@ C_FLAGS =  -Wno-deprecated-declarations -g -isysroot /Applications/Xcode.app/Con
 
 C_DEFINES = -DCORO_SJLJ
 
-C_INCLUDES = -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/ext/eigen" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/../glfw/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/ext/nanovg/src" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/ext/coro" 
+C_INCLUDES = -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/eigen" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/../glfw/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/coro" 
 

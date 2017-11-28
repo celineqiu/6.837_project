@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/helenzemelon/Documents/Fall 2017/837/project"
+CMAKE_SOURCE_DIR = "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/a2.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/a2.dir/flags.make
 
 CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.o: CMakeFiles/a2.dir/flags.make
 CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.o: ../3rd_party/lodepng/lodepng.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/lodepng/lodepng.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/lodepng/lodepng.cpp"
 
 CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/lodepng/lodepng.cpp" > CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/lodepng/lodepng.cpp" > CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.i
 
 CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/lodepng/lodepng.cpp" -o CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/lodepng/lodepng.cpp" -o CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.s
 
 CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.o.provides.build: CMakeFiles/a2.
 
 CMakeFiles/a2.dir/src/main.cpp.o: CMakeFiles/a2.dir/flags.make
 CMakeFiles/a2.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/a2.dir/src/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/src/main.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/src/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/a2.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/src/main.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/main.cpp"
 
 CMakeFiles/a2.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a2.dir/src/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/src/main.cpp" > CMakeFiles/a2.dir/src/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/main.cpp" > CMakeFiles/a2.dir/src/main.cpp.i
 
 CMakeFiles/a2.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a2.dir/src/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/src/main.cpp" -o CMakeFiles/a2.dir/src/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/main.cpp" -o CMakeFiles/a2.dir/src/main.cpp.s
 
 CMakeFiles/a2.dir/src/main.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/a2.dir/src/main.cpp.o.provides.build: CMakeFiles/a2.dir/src/main.cpp.
 
 CMakeFiles/a2.dir/src/starter2_util.cpp.o: CMakeFiles/a2.dir/flags.make
 CMakeFiles/a2.dir/src/starter2_util.cpp.o: ../src/starter2_util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a2.dir/src/starter2_util.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/src/starter2_util.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/src/starter2_util.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a2.dir/src/starter2_util.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/src/starter2_util.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/starter2_util.cpp"
 
 CMakeFiles/a2.dir/src/starter2_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a2.dir/src/starter2_util.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/src/starter2_util.cpp" > CMakeFiles/a2.dir/src/starter2_util.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/starter2_util.cpp" > CMakeFiles/a2.dir/src/starter2_util.cpp.i
 
 CMakeFiles/a2.dir/src/starter2_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a2.dir/src/starter2_util.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/src/starter2_util.cpp" -o CMakeFiles/a2.dir/src/starter2_util.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/starter2_util.cpp" -o CMakeFiles/a2.dir/src/starter2_util.cpp.s
 
 CMakeFiles/a2.dir/src/starter2_util.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/a2.dir/src/starter2_util.cpp.o.provides.build: CMakeFiles/a2.dir/src/
 
 CMakeFiles/a2.dir/src/camera.cpp.o: CMakeFiles/a2.dir/flags.make
 CMakeFiles/a2.dir/src/camera.cpp.o: ../src/camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/a2.dir/src/camera.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/src/camera.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/src/camera.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/a2.dir/src/camera.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/src/camera.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/camera.cpp"
 
 CMakeFiles/a2.dir/src/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a2.dir/src/camera.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/src/camera.cpp" > CMakeFiles/a2.dir/src/camera.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/camera.cpp" > CMakeFiles/a2.dir/src/camera.cpp.i
 
 CMakeFiles/a2.dir/src/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a2.dir/src/camera.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/src/camera.cpp" -o CMakeFiles/a2.dir/src/camera.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/camera.cpp" -o CMakeFiles/a2.dir/src/camera.cpp.s
 
 CMakeFiles/a2.dir/src/camera.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/a2.dir/src/camera.cpp.o.provides.build: CMakeFiles/a2.dir/src/camera.
 
 CMakeFiles/a2.dir/src/vertexrecorder.cpp.o: CMakeFiles/a2.dir/flags.make
 CMakeFiles/a2.dir/src/vertexrecorder.cpp.o: ../src/vertexrecorder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/a2.dir/src/vertexrecorder.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/src/vertexrecorder.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/src/vertexrecorder.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/a2.dir/src/vertexrecorder.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/src/vertexrecorder.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/vertexrecorder.cpp"
 
 CMakeFiles/a2.dir/src/vertexrecorder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a2.dir/src/vertexrecorder.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/src/vertexrecorder.cpp" > CMakeFiles/a2.dir/src/vertexrecorder.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/vertexrecorder.cpp" > CMakeFiles/a2.dir/src/vertexrecorder.cpp.i
 
 CMakeFiles/a2.dir/src/vertexrecorder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a2.dir/src/vertexrecorder.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/src/vertexrecorder.cpp" -o CMakeFiles/a2.dir/src/vertexrecorder.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/vertexrecorder.cpp" -o CMakeFiles/a2.dir/src/vertexrecorder.cpp.s
 
 CMakeFiles/a2.dir/src/vertexrecorder.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/a2.dir/src/vertexrecorder.cpp.o.provides.build: CMakeFiles/a2.dir/src
 
 CMakeFiles/a2.dir/src/matrixstack.cpp.o: CMakeFiles/a2.dir/flags.make
 CMakeFiles/a2.dir/src/matrixstack.cpp.o: ../src/matrixstack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/a2.dir/src/matrixstack.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/src/matrixstack.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/src/matrixstack.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/a2.dir/src/matrixstack.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/src/matrixstack.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/matrixstack.cpp"
 
 CMakeFiles/a2.dir/src/matrixstack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a2.dir/src/matrixstack.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/src/matrixstack.cpp" > CMakeFiles/a2.dir/src/matrixstack.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/matrixstack.cpp" > CMakeFiles/a2.dir/src/matrixstack.cpp.i
 
 CMakeFiles/a2.dir/src/matrixstack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a2.dir/src/matrixstack.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/src/matrixstack.cpp" -o CMakeFiles/a2.dir/src/matrixstack.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/matrixstack.cpp" -o CMakeFiles/a2.dir/src/matrixstack.cpp.s
 
 CMakeFiles/a2.dir/src/matrixstack.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/a2.dir/src/matrixstack.cpp.o.provides.build: CMakeFiles/a2.dir/src/ma
 
 CMakeFiles/a2.dir/src/joint.cpp.o: CMakeFiles/a2.dir/flags.make
 CMakeFiles/a2.dir/src/joint.cpp.o: ../src/joint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/a2.dir/src/joint.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/src/joint.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/src/joint.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/a2.dir/src/joint.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/src/joint.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/joint.cpp"
 
 CMakeFiles/a2.dir/src/joint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a2.dir/src/joint.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/src/joint.cpp" > CMakeFiles/a2.dir/src/joint.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/joint.cpp" > CMakeFiles/a2.dir/src/joint.cpp.i
 
 CMakeFiles/a2.dir/src/joint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a2.dir/src/joint.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/src/joint.cpp" -o CMakeFiles/a2.dir/src/joint.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/joint.cpp" -o CMakeFiles/a2.dir/src/joint.cpp.s
 
 CMakeFiles/a2.dir/src/joint.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/a2.dir/src/joint.cpp.o.provides.build: CMakeFiles/a2.dir/src/joint.cp
 
 CMakeFiles/a2.dir/src/mesh.cpp.o: CMakeFiles/a2.dir/flags.make
 CMakeFiles/a2.dir/src/mesh.cpp.o: ../src/mesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/a2.dir/src/mesh.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/src/mesh.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/src/mesh.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/a2.dir/src/mesh.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/src/mesh.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/mesh.cpp"
 
 CMakeFiles/a2.dir/src/mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a2.dir/src/mesh.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/src/mesh.cpp" > CMakeFiles/a2.dir/src/mesh.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/mesh.cpp" > CMakeFiles/a2.dir/src/mesh.cpp.i
 
 CMakeFiles/a2.dir/src/mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a2.dir/src/mesh.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/src/mesh.cpp" -o CMakeFiles/a2.dir/src/mesh.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/mesh.cpp" -o CMakeFiles/a2.dir/src/mesh.cpp.s
 
 CMakeFiles/a2.dir/src/mesh.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/a2.dir/src/mesh.cpp.o.provides.build: CMakeFiles/a2.dir/src/mesh.cpp.
 
 CMakeFiles/a2.dir/src/skeletalmodel.cpp.o: CMakeFiles/a2.dir/flags.make
 CMakeFiles/a2.dir/src/skeletalmodel.cpp.o: ../src/skeletalmodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/a2.dir/src/skeletalmodel.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/src/skeletalmodel.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/project/src/skeletalmodel.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/a2.dir/src/skeletalmodel.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a2.dir/src/skeletalmodel.cpp.o -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/skeletalmodel.cpp"
 
 CMakeFiles/a2.dir/src/skeletalmodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a2.dir/src/skeletalmodel.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/src/skeletalmodel.cpp" > CMakeFiles/a2.dir/src/skeletalmodel.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/skeletalmodel.cpp" > CMakeFiles/a2.dir/src/skeletalmodel.cpp.i
 
 CMakeFiles/a2.dir/src/skeletalmodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a2.dir/src/skeletalmodel.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/src/skeletalmodel.cpp" -o CMakeFiles/a2.dir/src/skeletalmodel.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/skeletalmodel.cpp" -o CMakeFiles/a2.dir/src/skeletalmodel.cpp.s
 
 CMakeFiles/a2.dir/src/skeletalmodel.cpp.o.requires:
 
@@ -303,7 +303,7 @@ a2: 3rd_party/nanogui/libnanogui.a
 a2: vecmath/libvecmath.a
 a2: 3rd_party/glfw/src/libglfw3.a
 a2: CMakeFiles/a2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable a2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable a2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/a2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -328,6 +328,6 @@ CMakeFiles/a2.dir/clean:
 .PHONY : CMakeFiles/a2.dir/clean
 
 CMakeFiles/a2.dir/depend:
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/helenzemelon/Documents/Fall 2017/837/project" "/Users/helenzemelon/Documents/Fall 2017/837/project" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles/a2.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles/a2.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/a2.dir/depend
 

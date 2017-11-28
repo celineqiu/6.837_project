@@ -71,7 +71,7 @@ list (APPEND A2_LIBS vecmath)
 list (APPEND A2_INCLUDES vecmath/include)
 list (APPEND A2_SRC
   src/main.cpp
-  src/starter2_util.cpp
+        src/starter_util.cpp
   src/camera.cpp
   src/vertexrecorder.cpp
   src/matrixstack.cpp
@@ -81,7 +81,7 @@ list (APPEND A2_SRC
 )
 list (APPEND A2_HEADER
   src/gl.h
-  src/starter2_util.h
+        src/starter_util.h
   src/camera.h
   src/vertexrecorder.h
   src/tuple.h

@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/helenzemelon/Documents/Fall 2017/837/project"
+CMAKE_SOURCE_DIR = "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include 3rd_party/nanogui/CMakeFiles/bin2c.dir/depend.make
@@ -59,16 +59,16 @@ include 3rd_party/nanogui/CMakeFiles/bin2c.dir/flags.make
 
 3rd_party/nanogui/CMakeFiles/bin2c.dir/resources/bin2c.c.o: 3rd_party/nanogui/CMakeFiles/bin2c.dir/flags.make
 3rd_party/nanogui/CMakeFiles/bin2c.dir/resources/bin2c.c.o: ../3rd_party/nanogui/resources/bin2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object 3rd_party/nanogui/CMakeFiles/bin2c.dir/resources/bin2c.c.o"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bin2c.dir/resources/bin2c.c.o   -c "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/resources/bin2c.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object 3rd_party/nanogui/CMakeFiles/bin2c.dir/resources/bin2c.c.o"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bin2c.dir/resources/bin2c.c.o   -c "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/resources/bin2c.c"
 
 3rd_party/nanogui/CMakeFiles/bin2c.dir/resources/bin2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bin2c.dir/resources/bin2c.c.i"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/resources/bin2c.c" > CMakeFiles/bin2c.dir/resources/bin2c.c.i
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/resources/bin2c.c" > CMakeFiles/bin2c.dir/resources/bin2c.c.i
 
 3rd_party/nanogui/CMakeFiles/bin2c.dir/resources/bin2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bin2c.dir/resources/bin2c.c.s"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/resources/bin2c.c" -o CMakeFiles/bin2c.dir/resources/bin2c.c.s
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/resources/bin2c.c" -o CMakeFiles/bin2c.dir/resources/bin2c.c.s
 
 3rd_party/nanogui/CMakeFiles/bin2c.dir/resources/bin2c.c.o.requires:
 
@@ -91,8 +91,8 @@ bin2c_EXTERNAL_OBJECTS =
 3rd_party/nanogui/bin2c: 3rd_party/nanogui/CMakeFiles/bin2c.dir/resources/bin2c.c.o
 3rd_party/nanogui/bin2c: 3rd_party/nanogui/CMakeFiles/bin2c.dir/build.make
 3rd_party/nanogui/bin2c: 3rd_party/nanogui/CMakeFiles/bin2c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable bin2c"
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bin2c.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable bin2c"
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bin2c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 3rd_party/nanogui/CMakeFiles/bin2c.dir/build: 3rd_party/nanogui/bin2c
@@ -104,10 +104,10 @@ bin2c_EXTERNAL_OBJECTS =
 .PHONY : 3rd_party/nanogui/CMakeFiles/bin2c.dir/requires
 
 3rd_party/nanogui/CMakeFiles/bin2c.dir/clean:
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" && $(CMAKE_COMMAND) -P CMakeFiles/bin2c.dir/cmake_clean.cmake
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" && $(CMAKE_COMMAND) -P CMakeFiles/bin2c.dir/cmake_clean.cmake
 .PHONY : 3rd_party/nanogui/CMakeFiles/bin2c.dir/clean
 
 3rd_party/nanogui/CMakeFiles/bin2c.dir/depend:
-	cd "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/helenzemelon/Documents/Fall 2017/837/project" "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui/CMakeFiles/bin2c.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui/CMakeFiles/bin2c.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : 3rd_party/nanogui/CMakeFiles/bin2c.dir/depend
 

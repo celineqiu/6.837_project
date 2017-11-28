@@ -6,5 +6,5 @@ C_FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Plat
 
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I"/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/glfw/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/glfw/src" -I"/Users/helenzemelon/Documents/Fall 2017/837/starter2/build/3rd_party/glfw/src" 
+C_INCLUDES = -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/glfw/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/glfw/src" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/build/3rd_party/glfw/src" 
 

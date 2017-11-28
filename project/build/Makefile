@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/helenzemelon/Documents/Fall 2017/837/starter2"
+CMAKE_SOURCE_DIR = "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/helenzemelon/Documents/Fall 2017/837/starter2/build"
+CMAKE_BINARY_DIR = "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/helenzemelon/Documents/Fall 2017/837/starter2/build/CMakeFiles" "/Users/helenzemelon/Documents/Fall 2017/837/starter2/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/build/CMakeFiles" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/helenzemelon/Documents/Fall 2017/837/starter2/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -364,32 +364,32 @@ src/skeletalmodel.cpp.s:
 	$(MAKE) -f CMakeFiles/a2.dir/build.make CMakeFiles/a2.dir/src/skeletalmodel.cpp.s
 .PHONY : src/skeletalmodel.cpp.s
 
-src/starter2_util.o: src/starter2_util.cpp.o
+src/starter_util.o: src/starter_util.cpp.o
 
-.PHONY : src/starter2_util.o
+.PHONY : src/starter_util.o
 
 # target to build an object file
-src/starter2_util.cpp.o:
-	$(MAKE) -f CMakeFiles/a2.dir/build.make CMakeFiles/a2.dir/src/starter2_util.cpp.o
-.PHONY : src/starter2_util.cpp.o
+src/starter_util.cpp.o:
+	$(MAKE) -f CMakeFiles/a2.dir/build.make CMakeFiles/a2.dir/src/starter_util.cpp.o
+.PHONY : src/starter_util.cpp.o
 
-src/starter2_util.i: src/starter2_util.cpp.i
+src/starter_util.i: src/starter_util.cpp.i
 
-.PHONY : src/starter2_util.i
+.PHONY : src/starter_util.i
 
 # target to preprocess a source file
-src/starter2_util.cpp.i:
-	$(MAKE) -f CMakeFiles/a2.dir/build.make CMakeFiles/a2.dir/src/starter2_util.cpp.i
-.PHONY : src/starter2_util.cpp.i
+src/starter_util.cpp.i:
+	$(MAKE) -f CMakeFiles/a2.dir/build.make CMakeFiles/a2.dir/src/starter_util.cpp.i
+.PHONY : src/starter_util.cpp.i
 
-src/starter2_util.s: src/starter2_util.cpp.s
+src/starter_util.s: src/starter_util.cpp.s
 
-.PHONY : src/starter2_util.s
+.PHONY : src/starter_util.s
 
 # target to generate assembly for a file
-src/starter2_util.cpp.s:
-	$(MAKE) -f CMakeFiles/a2.dir/build.make CMakeFiles/a2.dir/src/starter2_util.cpp.s
-.PHONY : src/starter2_util.cpp.s
+src/starter_util.cpp.s:
+	$(MAKE) -f CMakeFiles/a2.dir/build.make CMakeFiles/a2.dir/src/starter_util.cpp.s
+.PHONY : src/starter_util.cpp.s
 
 src/vertexrecorder.o: src/vertexrecorder.cpp.o
 
@@ -452,9 +452,9 @@ help:
 	@echo "... src/skeletalmodel.o"
 	@echo "... src/skeletalmodel.i"
 	@echo "... src/skeletalmodel.s"
-	@echo "... src/starter2_util.o"
-	@echo "... src/starter2_util.i"
-	@echo "... src/starter2_util.s"
+	@echo "... src/starter_util.o"
+	@echo "... src/starter_util.i"
+	@echo "... src/starter_util.s"
 	@echo "... src/vertexrecorder.o"
 	@echo "... src/vertexrecorder.i"
 	@echo "... src/vertexrecorder.s"

@@ -1342,9 +1342,9 @@ Vector3f.h
 Vector4f.h
 ../vecmath/include/Vector4f.h
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/lodepng/lodepng.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/lodepng/lodepng.cpp
 lodepng.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/lodepng/lodepng.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/lodepng/lodepng.h
 limits.h
 -
 stdio.h
@@ -1352,7 +1352,7 @@ stdio.h
 stdlib.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/lodepng/lodepng.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/lodepng/lodepng.h
 string.h
 -
 vector
@@ -1360,45 +1360,45 @@ vector
 string
 -
 lodepng.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/lodepng/lodepng.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/lodepng/lodepng.h
 iostream
 -
 lodepng.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/lodepng/lodepng.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/lodepng/lodepng.h
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/camera.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/camera.cpp
 camera.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/camera.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/camera.h
 iostream
 -
 gl.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/gl.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/gl.h
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/camera.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/camera.h
 vecmath.h
 -
 cstdint
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/gl.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/gl.h
 OpenGL/gl3.h
 -
 GL/glew.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/joint.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/joint.cpp
 joint.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/joint.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/joint.h
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/joint.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/joint.h
 vector
 -
 vecmath.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/main.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/main.cpp
 gl.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/gl.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/gl.h
 GLFW/glfw3.h
 -
 cmath
@@ -1417,32 +1417,32 @@ vecmath.h
 -
 nanogui/nanogui.h
 -
-starter2_util.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/starter2_util.h
+starter_util.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/starter_util.h
 camera.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/camera.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/camera.h
 vertexrecorder.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/vertexrecorder.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/vertexrecorder.h
 skeletalmodel.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/skeletalmodel.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/skeletalmodel.h
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/matrixstack.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/matrixstack.cpp
 matrixstack.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/matrixstack.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/matrixstack.h
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/matrixstack.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/matrixstack.h
 vector
 -
 vecmath.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/mesh.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/mesh.cpp
 mesh.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/mesh.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/mesh.h
 vertexrecorder.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/vertexrecorder.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/vertexrecorder.h
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/mesh.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/mesh.h
 vector
 -
 vecmath.h
@@ -1456,21 +1456,21 @@ fstream
 sstream
 -
 tuple.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/tuple.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/tuple.h
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/skeletalmodel.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/skeletalmodel.cpp
 skeletalmodel.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/skeletalmodel.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/skeletalmodel.h
 cassert
 -
-starter2_util.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/starter2_util.h
+starter_util.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/starter_util.h
 vertexrecorder.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/vertexrecorder.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/vertexrecorder.h
 math.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/skeletalmodel.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/skeletalmodel.h
 cstdlib
 -
 iostream
@@ -1486,23 +1486,23 @@ sstream
 vecmath.h
 -
 gl.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/gl.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/gl.h
 tuple.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/tuple.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/tuple.h
 joint.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/joint.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/joint.h
 mesh.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/mesh.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/mesh.h
 matrixstack.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/matrixstack.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/matrixstack.h
 camera.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/camera.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/camera.h
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/starter2_util.cpp
-starter2_util.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/starter2_util.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/starter_util.cpp
+starter_util.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/starter_util.h
 gl.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/gl.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/gl.h
 GLFW/glfw3.h
 -
 lodepng.h
@@ -1516,13 +1516,13 @@ ctime
 cassert
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/starter2_util.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/starter_util.h
 cstdint
 -
 gl.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/gl.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/gl.h
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/tuple.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/tuple.h
 cstdarg
 -
 cstdio
@@ -1534,21 +1534,21 @@ cstring
 iostream
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/vertexrecorder.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/vertexrecorder.cpp
 vertexrecorder.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/vertexrecorder.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/vertexrecorder.h
 cassert
 -
 cstdint
 -
 gl.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/gl.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/gl.h
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/vertexrecorder.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/vertexrecorder.h
 vector
 -
 vecmath.h
 -
 gl.h
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/src/gl.h
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/gl.h
 

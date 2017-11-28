@@ -1,7 +1,7 @@
 #include "skeletalmodel.h"
 #include <cassert>
 
-#include "starter2_util.h"
+#include "starter_util.h"
 #include "vertexrecorder.h"
 #include <math.h>
 

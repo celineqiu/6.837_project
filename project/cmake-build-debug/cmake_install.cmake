@@ -1,4 +1,4 @@
-# Install script for directory: /Users/helenzemelon/Documents/Fall 2017/837/project
+# Install script for directory: /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,9 +29,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/glfw/cmake_install.cmake")
-  include("/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui/cmake_install.cmake")
-  include("/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/vecmath/cmake_install.cmake")
+  include("/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/glfw/cmake_install.cmake")
+  include("/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui/cmake_install.cmake")
+  include("/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/vecmath/cmake_install.cmake")
 
 endif()
 
@@ -43,5 +43,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -7,13 +7,13 @@ C_FLAGS =  -Wno-deprecated-declarations -g -isysroot /Applications/Xcode.app/Con
 
 C_DEFINES = -DCORO_SJLJ -DNANOGUI_BUILD
 
-C_INCLUDES = -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/ext/eigen" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/../glfw/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/ext/nanovg/src" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/ext/coro" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/glfw/include" 
+C_INCLUDES = -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/eigen" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/../glfw/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/coro" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/glfw/include" 
 
 CXX_FLAGS =  --std=gnu++11 -g -Wall -Wno-unused-variable -Wall -Wextra -std=c++14 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk  
 
 CXX_DEFINES = -DCORO_SJLJ -DNANOGUI_BUILD
 
-CXX_INCLUDES = -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/ext/eigen" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/../glfw/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/ext/nanovg/src" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/nanogui/ext/coro" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/glfw/include" 
+CXX_INCLUDES = -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/eigen" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/../glfw/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/coro" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/glfw/include" 
 
 # Custom defines: 3rd_party/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o_DEFINES = NVG_BUILD
 

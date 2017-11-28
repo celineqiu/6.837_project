@@ -1332,7 +1332,7 @@ vector
 nanogui/widget.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/button.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/button.cpp
 nanogui/button.h
 -
 nanogui/theme.h
@@ -1342,7 +1342,7 @@ nanogui/opengl.h
 nanogui/serializer/core.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/checkbox.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/checkbox.cpp
 nanogui/checkbox.h
 -
 nanogui/opengl.h
@@ -1354,7 +1354,7 @@ nanogui/entypo.h
 nanogui/serializer/core.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/colorpicker.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/colorpicker.cpp
 nanogui/colorpicker.h
 -
 nanogui/layout.h
@@ -1362,7 +1362,7 @@ nanogui/layout.h
 nanogui/colorwheel.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/colorwheel.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/colorwheel.cpp
 nanogui/colorwheel.h
 -
 nanogui/theme.h
@@ -1376,7 +1376,7 @@ Eigen/QR
 Eigen/Geometry
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/combobox.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/combobox.cpp
 nanogui/combobox.h
 -
 nanogui/layout.h
@@ -1386,7 +1386,7 @@ nanogui/serializer/core.h
 cassert
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/common.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/common.cpp
 nanogui/screen.h
 -
 windows.h
@@ -1408,13 +1408,13 @@ signal.h
 sys/dir.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/darwin.mm
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/darwin.mm
 nanogui/nanogui.h
 -
 Cocoa/Cocoa.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/glutil.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/glutil.cpp
 nanogui/glutil.h
 -
 iostream
@@ -1422,7 +1422,7 @@ iostream
 fstream
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/graph.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/graph.cpp
 nanogui/graph.h
 -
 nanogui/theme.h
@@ -1432,13 +1432,13 @@ nanogui/opengl.h
 nanogui/serializer/core.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/imagepanel.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/imagepanel.cpp
 nanogui/imagepanel.h
 -
 nanogui/opengl.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/imageview.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/imageview.cpp
 nanogui/imageview.h
 -
 nanogui/window.h
@@ -1450,7 +1450,7 @@ nanogui/theme.h
 cmath
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/label.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/label.cpp
 nanogui/label.h
 -
 nanogui/theme.h
@@ -1460,7 +1460,7 @@ nanogui/opengl.h
 nanogui/serializer/core.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/layout.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/layout.cpp
 nanogui/layout.h
 -
 nanogui/widget.h
@@ -1474,7 +1474,7 @@ nanogui/label.h
 numeric
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/messagedialog.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/messagedialog.cpp
 nanogui/messagedialog.h
 -
 nanogui/layout.h
@@ -1486,7 +1486,7 @@ nanogui/entypo.h
 nanogui/label.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/popup.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/popup.cpp
 nanogui/popup.h
 -
 nanogui/theme.h
@@ -1496,7 +1496,7 @@ nanogui/opengl.h
 nanogui/serializer/core.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/popupbutton.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/popupbutton.cpp
 nanogui/popupbutton.h
 -
 nanogui/entypo.h
@@ -1508,7 +1508,7 @@ nanogui/opengl.h
 nanogui/serializer/core.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/progressbar.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/progressbar.cpp
 nanogui/progressbar.h
 -
 nanogui/opengl.h
@@ -1516,7 +1516,7 @@ nanogui/opengl.h
 nanogui/serializer/core.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/screen.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/screen.cpp
 nanogui/screen.h
 -
 nanogui/theme.h
@@ -1538,13 +1538,13 @@ GLFW/glfw3native.h
 nanovg_gl.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/serializer.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/serializer.cpp
 nanogui/serializer/core.h
 -
 iostream
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/slider.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/slider.cpp
 nanogui/slider.h
 -
 nanogui/theme.h
@@ -1554,11 +1554,11 @@ nanogui/opengl.h
 nanogui/serializer/core.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/stackedwidget.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/stackedwidget.cpp
 nanogui/stackedwidget.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/tabheader.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/tabheader.cpp
 nanogui/tabheader.h
 -
 nanogui/theme.h
@@ -1570,7 +1570,7 @@ nanogui/entypo.h
 numeric
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/tabwidget.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/tabwidget.cpp
 nanogui/tabwidget.h
 -
 nanogui/tabheader.h
@@ -1588,7 +1588,7 @@ nanogui/screen.h
 algorithm
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/textbox.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/textbox.cpp
 nanogui/window.h
 -
 nanogui/screen.h
@@ -1606,7 +1606,7 @@ nanogui/serializer/core.h
 regex
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/theme.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/theme.cpp
 nanogui/theme.h
 -
 nanogui/opengl.h
@@ -1614,7 +1614,7 @@ nanogui/opengl.h
 nanogui_resources.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/vscrollpanel.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/vscrollpanel.cpp
 nanogui/vscrollpanel.h
 -
 nanogui/theme.h
@@ -1624,7 +1624,7 @@ nanogui/opengl.h
 nanogui/serializer/core.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/widget.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/widget.cpp
 nanogui/widget.h
 -
 nanogui/layout.h
@@ -1640,7 +1640,7 @@ nanogui/screen.h
 nanogui/serializer/core.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/src/window.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/src/window.cpp
 nanogui/window.h
 -
 nanogui/theme.h
@@ -1654,7 +1654,7 @@ nanogui/layout.h
 nanogui/serializer/core.h
 -
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/build/3rd_party/nanogui/nanogui_resources.cpp
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/build/3rd_party/nanogui/nanogui_resources.cpp
 stdint.h
 -
 

@@ -11,7 +11,7 @@
 #include <vecmath.h>
 #include <nanogui/nanogui.h>
 
-#include "starter2_util.h"
+#include "starter_util.h"
 #include "camera.h"
 #include "vertexrecorder.h"
 #include "skeletalmodel.h"
@@ -34,7 +34,26 @@ GLFWwindow* window;
 ng::Screen *screen;
 Vector3f g_jointangles[NJOINTS];
 
-// This assignment uses a useful camera implementation
+class glfwtimer {
+public:
+    void set() {
+        freq = glfwGetTimerFrequency();
+        start = glfwGetTimerValue();
+    }
+    // return number of seconds elapsed
+    float elapsed() {
+        uint64_t now = glfwGetTimerValue();
+        return (float)(now - start) / freq;
+    }
+
+    uint64_t freq;
+    uint64_t start;
+
+};
+glfwtimer timer;
+
+
+    // This assignment uses a useful camera implementation
 Camera camera;
 SkeletalModel* skeleton;
 
@@ -202,92 +221,8 @@ void updateMesh()
    application.
 */
 void initGUI(GLFWwindow* glfwwin) {
-    // Create a nanogui screen and pass the glfw pointer to initialize
-
-    const int FONTSZ = 14;
-    const int ROWH = 18;
-
     screen = new ng::Screen();
     screen->initialize(glfwwin, false);
-
-
-    ng::Window* window = nullptr;
-    ng::Widget* animator = nullptr;
-    for (int i = 0; i < NJOINTS; ++i) {
-        if (i == 0 || i == 8) {
-            window = new ng::Window(screen, i == 0 ? "Animator 1" : "Animator 2");
-            window->setPosition(ng::Vector2i(i == 0 ? 10 : 800, 10));
-            window->setLayout(new ng::BoxLayout(ng::Orientation::Vertical));
-            window->setFixedHeight(i == 0 ? 800 : 960);
-
-            // Scrollpanel is broken. Slider drag mouse events not transformed properly
-            // ng::VScrollPanel* vspanel = new ng::VScrollPanel(window);
-            // vspanel->setLayout(new ng::BoxLayout(ng::Orientation::Vertical));
-            // vspanel->setFixedHeight(600);
-
-            animator = new ng::Widget(window);
-            animator->setLayout(new ng::BoxLayout(ng::Orientation::Vertical));
-        }
-        if (i == 0) {
-            ng::Button* btn = new ng::Button(animator, "Take Screenshot");
-            btn->setCallback([glfwwin]() {
-                screencapture(glfwwin);
-            });
-        }
-
-        ng::Widget *jointpanel = new ng::Widget(animator);
-        jointpanel->setLayout(new ng::BoxLayout(ng::Orientation::Vertical, ng::Alignment::Minimum, 2, 0));
-
-        ng::Label* label = new ng::Label(jointpanel, jointNames[i]);
-        label->setFontSize(FONTSZ);
-
-        for (int dim = 0; dim < 3; ++dim) {
-
-            ng::Widget *panel = new ng::Widget(jointpanel);
-            panel->setLayout(new ng::BoxLayout(ng::Orientation::Horizontal, ng::Alignment::Middle, 3, 10));
-
-            char buff[80];
-            switch (dim) {
-            case 0: sprintf(buff, "%s", "x"); break;
-            case 1: sprintf(buff, "%s", "y"); break;
-            case 2: sprintf(buff, "%s", "z"); break;
-            }
-
-            ng::Label* label = new ng::Label(panel, buff);
-            label->setFontSize(FONTSZ);
-            label->setFixedSize(ng::Vector2i(10, ROWH));
-
-            ng::Slider *slider = new ng::Slider(panel);
-            slider->setFixedWidth(160);
-            slider->setFixedHeight(ROWH);
-            slider->setValue(0.5);
-            slider->setFinalCallback([&](float value) {
-                //cout << "Final slider value: " << (int)(value * 100) << endl;
-            });
-
-            ng::TextBox *textBox = new ng::TextBox(panel);
-            textBox->setFixedSize(ng::Vector2i(40, ROWH));
-            slider->setCallback([textBox, i, dim](float value) {
-                char buff[80];
-                g_jointangles[i][dim] = (value - 0.5f) * 2 * (float)M_PI;
-                sprintf(buff, "%.2f", g_jointangles[i][dim]);
-                textBox->setValue(buff);
-
-                if (skeleton) {
-                    // update animation
-                    skeleton->setJointTransform(i, g_jointangles[i].x(), g_jointangles[i].y(), g_jointangles[i].z());
-                    updateMesh();
-                }
-            });
-
-            //textBox->setFixedSize(ng::Vector2i(40, ROWH));
-            textBox->setFontSize(FONTSZ);
-            textBox->setAlignment(ng::TextBox::Alignment::Right);
-
-            // update text box and global vars.
-            slider->notifyCallback();
-        }
-    }
 
     screen->performLayout();
 
@@ -362,10 +297,24 @@ void loadSkeleton(const std::string& basepath) {
     string attachfile = basepath + ".attach";
     skeleton->load(skelfile.c_str(), objfile.c_str(), attachfile.c_str());
 }
+void updateSkeleton() {
+    if (skeleton) {
+        // update animation
+        float elapsed_s = timer.elapsed();
+
+        g_jointangles[6][1] = cosf(elapsed_s)*M_PI;
+        skeleton->setJointTransform(6, g_jointangles[6].x(), g_jointangles[6].y(), g_jointangles[6].z());
+
+        g_jointangles[10][1] = -cosf(elapsed_s)*M_PI;
+        skeleton->setJointTransform(10, g_jointangles[10].x(), g_jointangles[10].y(), g_jointangles[10].z());
+        updateMesh();
+    }
+}
 void freeSkeleton() {
     delete skeleton;
     skeleton = nullptr;
 }
+
 }
 
 
@@ -400,7 +349,7 @@ int main(int argc, char** argv)
 
     loadSkeleton(basepath);
 
-
+    timer.set();
     // Main Loop
     while (!glfwWindowShouldClose(window)) {
 
@@ -425,6 +374,8 @@ int main(int argc, char** argv)
 
         // Check if any input happened during the last frame
         glfwPollEvents();
+
+        updateSkeleton();
     }
     freeSkeleton();
 

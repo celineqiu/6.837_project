@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/lodepng/lodepng.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.o"
-  "/Users/helenzemelon/Documents/Fall 2017/837/project/src/camera.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles/a2.dir/src/camera.cpp.o"
-  "/Users/helenzemelon/Documents/Fall 2017/837/project/src/joint.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles/a2.dir/src/joint.cpp.o"
-  "/Users/helenzemelon/Documents/Fall 2017/837/project/src/main.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles/a2.dir/src/main.cpp.o"
-  "/Users/helenzemelon/Documents/Fall 2017/837/project/src/matrixstack.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles/a2.dir/src/matrixstack.cpp.o"
-  "/Users/helenzemelon/Documents/Fall 2017/837/project/src/mesh.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles/a2.dir/src/mesh.cpp.o"
-  "/Users/helenzemelon/Documents/Fall 2017/837/project/src/skeletalmodel.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles/a2.dir/src/skeletalmodel.cpp.o"
-  "/Users/helenzemelon/Documents/Fall 2017/837/project/src/starter2_util.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles/a2.dir/src/starter2_util.cpp.o"
-  "/Users/helenzemelon/Documents/Fall 2017/837/project/src/vertexrecorder.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/CMakeFiles/a2.dir/src/vertexrecorder.cpp.o"
+  "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/lodepng/lodepng.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.o"
+  "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/camera.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles/a2.dir/src/camera.cpp.o"
+  "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/joint.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles/a2.dir/src/joint.cpp.o"
+  "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/main.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles/a2.dir/src/main.cpp.o"
+  "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/matrixstack.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles/a2.dir/src/matrixstack.cpp.o"
+  "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/mesh.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles/a2.dir/src/mesh.cpp.o"
+  "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/skeletalmodel.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles/a2.dir/src/skeletalmodel.cpp.o"
+  "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/starter2_util.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles/a2.dir/src/starter2_util.cpp.o"
+  "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/vertexrecorder.cpp" "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/CMakeFiles/a2.dir/src/vertexrecorder.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
@@ -28,9 +28,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
-  "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/nanogui/CMakeFiles/nanogui.dir/DependInfo.cmake"
-  "/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/vecmath/CMakeFiles/vecmath.dir/DependInfo.cmake"
+  "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/nanogui/CMakeFiles/nanogui.dir/DependInfo.cmake"
+  "/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/vecmath/CMakeFiles/vecmath.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/helenzemelon/Documents/Fall 2017/837/project/vecmath
+# Install script for directory: /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/vecmath
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

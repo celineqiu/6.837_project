@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/glfw/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/3rd_party/glfw/src" -I"/Users/helenzemelon/Documents/Fall 2017/837/project/cmake-build-debug/3rd_party/glfw/src" 
+C_INCLUDES = -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/glfw/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/glfw/src" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/cmake-build-debug/3rd_party/glfw/src" 
 

@@ -4,13 +4,13 @@
 vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.o
  ../vecmath/include/Matrix2f.h
  ../vecmath/include/Vector2f.h
- /Users/helenzemelon/Documents/Fall 2017/837/starter2/vecmath/Matrix2f.cpp
+ /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/vecmath/Matrix2f.cpp
 vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.o
  ../vecmath/include/Matrix2f.h
  ../vecmath/include/Matrix3f.h
  ../vecmath/include/Quat4f.h
  ../vecmath/include/Vector3f.h
- /Users/helenzemelon/Documents/Fall 2017/837/starter2/vecmath/Matrix3f.cpp
+ /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/vecmath/Matrix3f.cpp
 vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.o
  ../vecmath/include/Matrix2f.h
  ../vecmath/include/Matrix3f.h
@@ -18,23 +18,23 @@ vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.o
  ../vecmath/include/Quat4f.h
  ../vecmath/include/Vector3f.h
  ../vecmath/include/Vector4f.h
- /Users/helenzemelon/Documents/Fall 2017/837/starter2/vecmath/Matrix4f.cpp
+ /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/vecmath/Matrix4f.cpp
 vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.o
  ../vecmath/include/Matrix3f.h
  ../vecmath/include/Quat4f.h
  ../vecmath/include/Vector3f.h
  ../vecmath/include/Vector4f.h
- /Users/helenzemelon/Documents/Fall 2017/837/starter2/vecmath/Quat4f.cpp
+ /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/vecmath/Quat4f.cpp
 vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.o
  ../vecmath/include/Vector2f.h
  ../vecmath/include/Vector3f.h
- /Users/helenzemelon/Documents/Fall 2017/837/starter2/vecmath/Vector2f.cpp
+ /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/vecmath/Vector2f.cpp
 vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.o
  ../vecmath/include/Vector2f.h
  ../vecmath/include/Vector3f.h
- /Users/helenzemelon/Documents/Fall 2017/837/starter2/vecmath/Vector3f.cpp
+ /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/vecmath/Vector3f.cpp
 vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.o
  ../vecmath/include/Vector2f.h
  ../vecmath/include/Vector3f.h
  ../vecmath/include/Vector4f.h
- /Users/helenzemelon/Documents/Fall 2017/837/starter2/vecmath/Vector4f.cpp
+ /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/vecmath/Vector4f.cpp

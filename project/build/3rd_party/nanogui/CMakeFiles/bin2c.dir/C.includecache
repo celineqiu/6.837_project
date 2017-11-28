@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/helenzemelon/Documents/Fall 2017/837/starter2/3rd_party/nanogui/resources/bin2c.c
+/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/resources/bin2c.c
 stdlib.h
 -
 stdio.h
