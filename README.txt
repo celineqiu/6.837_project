@@ -1,4 +1,9 @@
 # 6.837_project
+
+HE said the paper we were looking at is p shitty
+
+Easier to start with below steps instead:
+
 -create a secondary skin mesh
 -attach secondary skin mesh to non-moving skin mesh with springs
     -what's a good way to calculate spring constant?
@@ -25,4 +30,5 @@ To do for check in 11/29:
   -then write out what we plan to do, i.e. the spring stuff, math behind the spring stuff
   
   
-  
+  If we want to do more difficult stuff:
+  https://graphics.pixar.com/library/WigglySplinesA/paper.pdf
