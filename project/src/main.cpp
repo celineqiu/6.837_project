@@ -33,6 +33,7 @@ const string jointNames[NJOINTS] = { "Root", "Chest", "Waist", "Neck",
 GLFWwindow* window;
 ng::Screen *screen;
 Vector3f g_jointangles[NJOINTS];
+string basepath;
 
 class glfwtimer {
 public:
@@ -67,6 +68,8 @@ bool gDrawAxisAlways = false;
 
 // Declarations of functions whose implementations occur later.
 void drawAxis(void);
+void freeSkeleton(void);
+void loadSkeleton(const std::string& basepath);
 
 static void keyCallback(GLFWwindow* window, int key,
     int scancode, int action, int mods)
@@ -89,12 +92,21 @@ static void keyCallback(GLFWwindow* window, int key,
         camera.SetCenter(Vector3f(-0.5, -0.5, -0.5));
         break;
     }
-    case 'S':
+    case 'S': {
         gDrawSkeleton = !gDrawSkeleton;
         break;
-    case 'A':
+    }
+    case 'A': {
         gDrawAxisAlways = !gDrawAxisAlways;
         break;
+    }
+    case 'R': {
+        cout << "Resetting simulation\n";
+        freeSkeleton();
+        loadSkeleton(basepath);
+        timer.set();
+        break;
+    }
     default:
         cout << "Unhandled key press " << key << "." << endl;
     }
@@ -297,26 +309,46 @@ void loadSkeleton(const std::string& basepath) {
     string attachfile = basepath + ".attach";
     skeleton->load(skelfile.c_str(), objfile.c_str(), attachfile.c_str());
 }
+
+
+void jumpingSkeleton(float elapsed_s) {
+    float y = (2.0f*elapsed_s - 2.0f*pow(elapsed_s,2));
+    if (y > 0) {
+        Matrix4f m = Matrix4f::translation(0, y, 0);
+        skeleton->translateSkeleton(m);
+    }
+    updateMesh();
+}
+
+void runningSkeleton(float elapsed_s) {
+    g_jointangles[6][1] = cosf(elapsed_s)*M_PI;
+    skeleton->setJointTransform(6, g_jointangles[6].x(), g_jointangles[6].y(), g_jointangles[6].z());
+
+    g_jointangles[10][1] = -cosf(elapsed_s)*M_PI;
+    skeleton->setJointTransform(10, g_jointangles[10].x(), g_jointangles[10].y(), g_jointangles[10].z());
+    updateMesh();
+}
+
 void updateSkeleton() {
     if (skeleton) {
+
+
         // update animation
         float elapsed_s = timer.elapsed();
 
-        Matrix4f m = Matrix4f::translation(0, cosf(elapsed_s)/3, 0);
-        skeleton->translateSkeleton(m);
+        // for a skelet0ne that jumps
+        jumpingSkeleton(elapsed_s);
 
-        g_jointangles[6][1] = cosf(elapsed_s)*M_PI;
-        skeleton->setJointTransform(6, g_jointangles[6].x(), g_jointangles[6].y(), g_jointangles[6].z());
+        // and a skelet0ne that runs
+     //   runningSkeleton(elapsed_s);
 
-        g_jointangles[10][1] = -cosf(elapsed_s)*M_PI;
-        skeleton->setJointTransform(10, g_jointangles[10].x(), g_jointangles[10].y(), g_jointangles[10].z());
-        updateMesh();
     }
 }
 void freeSkeleton() {
     delete skeleton;
     skeleton = nullptr;
 }
+
 
 }
 
@@ -329,7 +361,7 @@ int main(int argc, char** argv)
         cout << "For example, if you're trying to load data/Model1.skel, data/Model1.obj, and data/Model1.attach, run with: " << argv[0] << " data/Model1" << endl;
         return -1;
     }
-    std::string basepath = argv[1];
+    basepath = argv[1];
 
     window = createOpenGLWindow(1024, 1024, "Assignment 2");
 

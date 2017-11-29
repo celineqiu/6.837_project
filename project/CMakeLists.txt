@@ -91,6 +91,6 @@ list (APPEND A2_HEADER
   src/skeletalmodel.h
 )
 
-add_executable(a2 ${A2_SRC} ${A2_HEADER})
+add_executable(a2 ${A2_SRC} ${A2_HEADER} src/timestepper.cpp src/timestepper.h)
 target_include_directories(a2 PUBLIC ${A2_INCLUDES})
 target_link_libraries(a2 ${A2_LIBS})

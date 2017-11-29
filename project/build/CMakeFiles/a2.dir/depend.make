@@ -332,6 +332,8 @@ CMakeFiles/a2.dir/src/starter_util.cpp.o: ../src/gl.h
 CMakeFiles/a2.dir/src/starter_util.cpp.o: ../src/starter_util.cpp
 CMakeFiles/a2.dir/src/starter_util.cpp.o: ../src/starter_util.h
 
+CMakeFiles/a2.dir/src/timestepper.cpp.o: ../src/timestepper.cpp
+
 CMakeFiles/a2.dir/src/vertexrecorder.cpp.o: ../vecmath/include/Matrix2f.h
 CMakeFiles/a2.dir/src/vertexrecorder.cpp.o: ../vecmath/include/Matrix3f.h
 CMakeFiles/a2.dir/src/vertexrecorder.cpp.o: ../vecmath/include/Matrix4f.h

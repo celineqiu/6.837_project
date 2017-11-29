@@ -26,6 +26,9 @@ void Mesh::load( const char* filename )
 
 	// make a copy of the bind vertices as the current vertices
 	currentVertices = bindVertices;
+
+    // initialize 0 velocities?
+	currentVelocities.assign(currentVertices.size(), Vector3f(0,0,0));
 }
 
 void Mesh::draw()

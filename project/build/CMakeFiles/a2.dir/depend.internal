@@ -332,6 +332,8 @@ CMakeFiles/a2.dir/src/starter_util.cpp.o
  /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/gl.h
  /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/starter_util.cpp
  /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/starter_util.h
+CMakeFiles/a2.dir/src/timestepper.cpp.o
+ /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/timestepper.cpp
 CMakeFiles/a2.dir/src/vertexrecorder.cpp.o
  ../vecmath/include/Matrix2f.h
  ../vecmath/include/Matrix3f.h

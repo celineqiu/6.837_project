@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/a2.dir/src/joint.cpp.o"
   "CMakeFiles/a2.dir/src/mesh.cpp.o"
   "CMakeFiles/a2.dir/src/skeletalmodel.cpp.o"
+  "CMakeFiles/a2.dir/src/timestepper.cpp.o"
   "a2.pdb"
   "a2"
 )

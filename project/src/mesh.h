@@ -25,6 +25,9 @@ struct Mesh
 	// current vertex positions after animation
 	std::vector< Vector3f > currentVertices;
 
+	// current vertex velocities after animation
+	std::vector< Vector3f > currentVelocities;
+
 	// list of vertex to joint attachments
 	// each element of attachments is a vector< float > containing
 	// one attachment weight per joint
