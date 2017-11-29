@@ -16,49 +16,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94990755-7d89-4c02-aca6-353f955b0dcc" name="Default" comment="copied from starter 2">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/timestepper.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/timestepper.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/main.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/main.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/mesh.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/mesh.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/skeletalmodel.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/skeletalmodel.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/a2" afterPath="$PROJECT_DIR$/build/a2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/progress.make" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/progress.make" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/progress.make" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/build.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/depend.internal" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/depend.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/link.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/progress.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Makefile" afterPath="$PROJECT_DIR$/build/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/progress.make" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/src/CMakeFiles/glfw.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/src/CMakeFiles/glfw.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/bin2c.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/bin2c.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/nanogui.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/nanogui.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/a2.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/a2.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/a2.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/a2.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/a2.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/a2.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/a2.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/a2.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/a2.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/a2.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/a2.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/a2.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/vecmath/CMakeFiles/vecmath.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/vecmath/CMakeFiles/vecmath.dir/progress.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mesh.cpp" afterPath="$PROJECT_DIR$/src/mesh.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mesh.h" afterPath="$PROJECT_DIR$/src/mesh.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/skeletalmodel.cpp" afterPath="$PROJECT_DIR$/src/skeletalmodel.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/skeletalmodel.h" afterPath="$PROJECT_DIR$/src/skeletalmodel.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,8 +96,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="323" column="14" lean-forward="false" selection-start-line="323" selection-start-column="14" selection-end-line="323" selection-end-column="14" />
+            <state relative-caret-position="261">
+              <caret line="341" column="0" lean-forward="true" selection-start-line="341" selection-start-column="0" selection-end-line="341" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -309,12 +270,12 @@
       <option name="presentableId" value="Default" />
       <updated>1511836946468</updated>
       <workItem from="1511836948189" duration="488000" />
-      <workItem from="1511839440612" duration="8314000" />
+      <workItem from="1511839440612" duration="11099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8802000" />
+    <option name="totallyTimeSpent" value="11587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -677,8 +638,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="323" column="14" lean-forward="false" selection-start-line="323" selection-start-column="14" selection-end-line="323" selection-end-column="14" />
+        <state relative-caret-position="261">
+          <caret line="341" column="0" lean-forward="true" selection-start-line="341" selection-start-column="0" selection-end-line="341" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

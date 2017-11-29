@@ -34,6 +34,7 @@ GLFWwindow* window;
 ng::Screen *screen;
 Vector3f g_jointangles[NJOINTS];
 string basepath;
+bool jumping;
 
 class glfwtimer {
 public:
@@ -105,6 +106,14 @@ static void keyCallback(GLFWwindow* window, int key,
         freeSkeleton();
         loadSkeleton(basepath);
         timer.set();
+        break;
+    }
+    case 'T': {
+        cout << "Toggle movements \n";
+        freeSkeleton();
+        loadSkeleton(basepath);
+        timer.set();
+        jumping = !jumping;
         break;
     }
     default:
@@ -321,10 +330,29 @@ void jumpingSkeleton(float elapsed_s) {
 }
 
 void runningSkeleton(float elapsed_s) {
-    g_jointangles[6][1] = cosf(elapsed_s)*M_PI;
+
+    // shoulders
+//    float rs = abs(cosf(elapsed_s/2.0f))*M_PI*0.5f;
+//    float ls = abs(sinf(elapsed_s/2.0f))*M_PI*0.5f;
+    skeleton->setJointTransform(12, M_PI*0.35f, 0, 0);
+    skeleton->setJointTransform(16, M_PI*0.35f, 0, 0);
+
+//    // hips
+//    skeleton->setJointTransform(3, -M_PI*0.2f, 0, 0);
+
+    // legs
+    g_jointangles[5][0] = -(cosf(elapsed_s)+0.2)*M_PI*0.4f;
+    skeleton->setJointTransform(5, g_jointangles[5].x(), g_jointangles[5].y(), g_jointangles[5].z());
+
+    g_jointangles[9][0] = +(cosf(elapsed_s)-0.2)*M_PI*0.4f;
+    skeleton->setJointTransform(9, g_jointangles[9].x(), g_jointangles[9].y(), g_jointangles[9].z());
+
+
+    //knees
+    g_jointangles[6][0] = abs(cosf(elapsed_s/2.0f))*M_PI*0.5f;
     skeleton->setJointTransform(6, g_jointangles[6].x(), g_jointangles[6].y(), g_jointangles[6].z());
 
-    g_jointangles[10][1] = -cosf(elapsed_s)*M_PI;
+    g_jointangles[10][0] = abs(sinf(elapsed_s/2.0f))*M_PI*0.5f;
     skeleton->setJointTransform(10, g_jointangles[10].x(), g_jointangles[10].y(), g_jointangles[10].z());
     updateMesh();
 }
@@ -337,10 +365,12 @@ void updateSkeleton() {
         float elapsed_s = timer.elapsed();
 
         // for a skelet0ne that jumps
-        jumpingSkeleton(elapsed_s);
-
-        // and a skelet0ne that runs
-     //   runningSkeleton(elapsed_s);
+        if (jumping) {
+            jumpingSkeleton(elapsed_s);
+        } else {
+            // and a skelet0ne that runs
+            runningSkeleton(elapsed_s);
+        }
 
     }
 }
