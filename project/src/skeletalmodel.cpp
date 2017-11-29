@@ -7,6 +7,8 @@
 
 using namespace std;
 
+Matrix4f translate = Matrix4f::identity();
+
 SkeletalModel::SkeletalModel() {
     program = compileProgram(c_vertexshader, c_fragmentshader_light);
     if (!program) {
@@ -42,6 +44,7 @@ void SkeletalModel::draw(const Camera& camera, bool skeletonVisible)
     // (after an update() occurs, when the camera moves, the window is resized, etc)
 
     m_matrixStack.clear();
+    m_matrixStack.push(translate);
 
     glUseProgram(program);
     updateShadingUniforms();
@@ -276,8 +279,13 @@ void SkeletalModel::updateMesh()
                                              *Vector4f(xyz, 1)).xyz();
         }
 
-        m_mesh.currentVertices[i] = sum;
+        m_mesh.currentVertices[i] = (translate*Vector4f(sum,1)).xyz();
     }
 
+}
+
+void SkeletalModel::translateSkeleton(Matrix4f m)
+{
+    translate = m;
 }
 

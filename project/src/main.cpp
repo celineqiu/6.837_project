@@ -302,6 +302,9 @@ void updateSkeleton() {
         // update animation
         float elapsed_s = timer.elapsed();
 
+        Matrix4f m = Matrix4f::translation(0, cosf(elapsed_s)/3, 0);
+        skeleton->translateSkeleton(m);
+
         g_jointangles[6][1] = cosf(elapsed_s)*M_PI;
         skeleton->setJointTransform(6, g_jointangles[6].x(), g_jointangles[6].y(), g_jointangles[6].z());
 
@@ -367,6 +370,7 @@ int main(int argc, char** argv)
             drawAxis();
         }
 
+        updateSkeleton();
         skeleton->draw(camera, gDrawSkeleton);
 
         // Make back buffer visible
@@ -374,8 +378,6 @@ int main(int argc, char** argv)
 
         // Check if any input happened during the last frame
         glfwPollEvents();
-
-        updateSkeleton();
     }
     freeSkeleton();
 

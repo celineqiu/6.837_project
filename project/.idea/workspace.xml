@@ -16,151 +16,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94990755-7d89-4c02-aca6-353f955b0dcc" name="Default" comment="copied from starter 2">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/6.837_project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/starter2_util.cpp.o" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/starter2_util.cpp" afterPath="$PROJECT_DIR$/src/starter_util.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/starter2_util.h" afterPath="$PROJECT_DIR$/src/starter_util.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/libglfw3.a" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/libglfw3.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/darwin.mm.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/darwin.mm.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/glutil.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/glutil.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/serializer.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/serializer.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/stackedwidget.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/stackedwidget.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabheader.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabheader.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/libnanogui.a" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/libnanogui.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/camera.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/camera.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/joint.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/joint.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/main.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/main.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/matrixstack.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/matrixstack.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/mesh.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/mesh.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/skeletalmodel.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/skeletalmodel.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/vertexrecorder.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/vertexrecorder.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/a2" afterPath="$PROJECT_DIR$/build/a2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.o" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.o" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.o" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.o" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.o" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.o" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.o" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/libvecmath.a" afterPath="$PROJECT_DIR$/build/vecmath/libvecmath.a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/Makefile" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/cmake_install.cmake" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/C.includecache" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/C.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/build.make" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/depend.internal" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/flags.make" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/Makefile" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/cmake_install.cmake" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/C.includecache" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/C.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/build.make" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/depend.internal" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/flags.make" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/C.includecache" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/C.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/build.make" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/depend.internal" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/Makefile" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/cmake_install.cmake" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeCache.txt" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeRuleHashes.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeRuleHashes.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/build.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/depend.internal" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/depend.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/flags.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/link.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Makefile" afterPath="$PROJECT_DIR$/build/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/cmake_install.cmake" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/build.make" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/depend.internal" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/flags.make" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/Makefile" afterPath="$PROJECT_DIR$/build/vecmath/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/cmake_install.cmake" afterPath="$PROJECT_DIR$/build/vecmath/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/GLFW.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/GLFW.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/src/CMakeFiles/glfw.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/src/CMakeFiles/glfw.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/src/CMakeFiles/glfw.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/src/CMakeFiles/glfw.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/src/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/src/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/src/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/glfw/src/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/bin2c.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/bin2c.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/bin2c.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/bin2c.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/bin2c.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/bin2c.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/nanogui.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/nanogui.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/nanogui.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/nanogui.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/NanoGUI.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/NanoGUI.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/3rd_party/nanogui/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/a2.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/a2.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/a2.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/a2.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/a2.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/a2.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/a2.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/a2.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/vecmath/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/vecmath/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/vecmath/CMakeFiles/vecmath.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/vecmath/CMakeFiles/vecmath.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/vecmath/CMakeFiles/vecmath.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/vecmath/CMakeFiles/vecmath.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/vecmath/CMakeFiles/vecmath.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/vecmath/CMakeFiles/vecmath.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/vecmath/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/vecmath/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/vecmath/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/vecmath/cmake_install.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/skeletalmodel.cpp" afterPath="$PROJECT_DIR$/src/skeletalmodel.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/skeletalmodel.h" afterPath="$PROJECT_DIR$/src/skeletalmodel.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -172,46 +34,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../src copy/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="382" column="41" lean-forward="true" selection-start-line="382" selection-start-column="41" selection-end-line="382" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="skeletalmodel.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/skeletalmodel.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="205" column="34" lean-forward="false" selection-start-line="205" selection-start-column="27" selection-end-line="205" selection-end-column="34" />
+            <state relative-caret-position="223">
+              <caret line="63" column="8" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.h" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/starter5/src/main.h">
+      <file leaf-file-name="clothsystem.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../src copy/clothsystem.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="45" column="10" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="10" />
+            <state relative-caret-position="270">
+              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clothsystem.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../src copy/clothsystem.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="152" column="24" lean-forward="true" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="skeletalmodel.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/skeletalmodel.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="547">
+              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="skeletalmodel.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/skeletalmodel.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="547">
+              <caret line="284" column="1" lean-forward="true" selection-start-line="284" selection-start-column="1" selection-end-line="284" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pendulumsystem.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../src copy/pendulumsystem.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/assn5/starter5/src/main.cpp">
+        <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="246" column="23" lean-forward="false" selection-start-line="246" selection-start-column="12" selection-end-line="246" selection-end-column="23" />
+            <state relative-caret-position="-1968">
+              <caret line="196" column="22" lean-forward="false" selection-start-line="196" selection-start-column="18" selection-end-line="196" selection-end-column="22" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mesh.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mesh.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="44" column="53" lean-forward="true" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simplesystem.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../src copy/simplesystem.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="timestepper.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../src copy/timestepper.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -232,6 +154,11 @@
       <find>while</find>
       <find>glfwPoll</find>
       <find>glfwPollE</find>
+      <find>drawSystem</find>
+      <find>drawJoints</find>
+      <find>setJointT</find>
+      <find>draw</find>
+      <find>mesh</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -240,7 +167,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/skeletalmodel.h" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/skeletalmodel.cpp" />
       </list>
     </option>
   </component>
@@ -250,6 +179,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
@@ -343,12 +273,12 @@
       <option name="presentableId" value="Default" />
       <updated>1511836946468</updated>
       <workItem from="1511836948189" duration="488000" />
-      <workItem from="1511839440612" duration="2720000" />
+      <workItem from="1511839440612" duration="4998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3208000" />
+    <option name="totallyTimeSpent" value="5486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -461,14 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/skeletalmodel.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="205" column="34" lean-forward="false" selection-start-line="205" selection-start-column="27" selection-end-line="205" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/starter5/src/main.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -485,13 +407,219 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/pendulumsystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/simplesystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/timestepper.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/camera.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/vertexrecorder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/vertexrecorder.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/camera.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/starter3_util.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1417">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/gl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#105#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/starter_util.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="178" column="18" lean-forward="false" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/starter3_util.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/starter_util.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/particlesystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/particlesystem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/timestepper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/simplesystem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/pendulumsystem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="63" column="8" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/clothsystem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/clothsystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="152" column="24" lean-forward="true" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/matrixstack.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/skeletalmodel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mesh.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="44" column="53" lean-forward="true" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="382" column="41" lean-forward="true" selection-start-line="382" selection-start-column="41" selection-end-line="382" selection-end-column="41" />
+        <state relative-caret-position="-1968">
+          <caret line="196" column="22" lean-forward="false" selection-start-line="196" selection-start-column="18" selection-end-line="196" selection-end-column="22" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/skeletalmodel.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="284" column="1" lean-forward="true" selection-start-line="284" selection-start-column="1" selection-end-line="284" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

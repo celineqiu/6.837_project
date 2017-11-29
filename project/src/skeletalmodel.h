@@ -71,6 +71,10 @@ public:
     // and the current joint --> world transforms.
     void updateMesh();
 
+
+
+    void translateSkeleton(Matrix4f m);
+
 private:
     // pointer to the root joint
     Joint* m_rootJoint;
