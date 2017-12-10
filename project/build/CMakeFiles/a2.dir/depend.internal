@@ -280,6 +280,7 @@ CMakeFiles/a2.dir/src/main.cpp.o
  /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/mesh.h
  /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/skeletalmodel.h
  /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/starter_util.h
+ /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/timestepper.h
  /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/tuple.h
  /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/vertexrecorder.h
 CMakeFiles/a2.dir/src/matrixstack.cpp.o
@@ -333,7 +334,18 @@ CMakeFiles/a2.dir/src/starter_util.cpp.o
  /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/starter_util.cpp
  /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/starter_util.h
 CMakeFiles/a2.dir/src/timestepper.cpp.o
+ ../vecmath/include/Matrix2f.h
+ ../vecmath/include/Matrix3f.h
+ ../vecmath/include/Matrix4f.h
+ ../vecmath/include/Quat4f.h
+ ../vecmath/include/Vector2f.h
+ ../vecmath/include/Vector3f.h
+ ../vecmath/include/Vector4f.h
+ ../vecmath/include/vecmath.h
+ /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/mesh.h
  /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/timestepper.cpp
+ /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/timestepper.h
+ /Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/src/tuple.h
 CMakeFiles/a2.dir/src/vertexrecorder.cpp.o
  ../vecmath/include/Matrix2f.h
  ../vecmath/include/Matrix3f.h

@@ -116,7 +116,7 @@ CMAKE_NM:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDef
 CMAKE_OBJCOPY:FILEPATH=CMAKE_OBJCOPY-NOTFOUND
 
 //Path to a program.
-CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
+CMAKE_OBJDUMP:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump
 
 //Build architectures for OSX
 CMAKE_OSX_ARCHITECTURES:STRING=
@@ -127,7 +127,7 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 
 //The product will be built against the headers and libraries located
 // inside the indicated SDK.
-CMAKE_OSX_SYSROOT:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk
+CMAKE_OSX_SYSROOT:STRING=
 
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=a2
@@ -182,13 +182,13 @@ CMAKE_STRIP:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/Xcode
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Path to a library.
-COCOA_FRAMEWORK:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework
+COCOA_FRAMEWORK:FILEPATH=/System/Library/Frameworks/Cocoa.framework
 
 //Path to a library.
-CORE_FOUNDATION_FRAMEWORK:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreFoundation.framework
+CORE_FOUNDATION_FRAMEWORK:FILEPATH=/System/Library/Frameworks/CoreFoundation.framework
 
 //Path to a library.
-CORE_VIDEO_FRAMEWORK:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreVideo.framework
+CORE_VIDEO_FRAMEWORK:FILEPATH=/System/Library/Frameworks/CoreVideo.framework
 
 //Value Computed by CMake
 GLFW_BINARY_DIR:STATIC=/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/build/3rd_party/glfw
@@ -227,7 +227,7 @@ GLFW_USE_RETINA:BOOL=ON
 GLFW_VULKAN_STATIC:BOOL=OFF
 
 //Path to a library.
-IOKIT_FRAMEWORK:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/IOKit.framework
+IOKIT_FRAMEWORK:FILEPATH=/System/Library/Frameworks/IOKit.framework
 
 //Takes an empty string or 64. Directory where lib will be installed:
 // lib or lib64
@@ -258,13 +258,13 @@ NanoGUI_BINARY_DIR:STATIC=/Users/helenzemelon/Documents/Fall 2017/837/6.837_proj
 NanoGUI_SOURCE_DIR:STATIC=/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui
 
 //Include for OpenGL on OS X
-OPENGL_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework
+OPENGL_INCLUDE_DIR:PATH=/System/Library/Frameworks/OpenGL.framework
 
 //OpenGL library for OS X
-OPENGL_gl_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework
+OPENGL_gl_LIBRARY:FILEPATH=/System/Library/Frameworks/OpenGL.framework
 
 //GLU library for OS X (usually same as OpenGL library)
-OPENGL_glu_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework
+OPENGL_glu_LIBRARY:FILEPATH=/System/Library/Frameworks/OpenGL.framework
 
 //Path to a file.
 VULKAN_INCLUDE_DIR:PATH=VULKAN_INCLUDE_DIR-NOTFOUND
@@ -279,22 +279,22 @@ a2_BINARY_DIR:STATIC=/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/p
 a2_SOURCE_DIR:STATIC=/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project
 
 //Path to a library.
-cocoa_library:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework
+cocoa_library:FILEPATH=/System/Library/Frameworks/Cocoa.framework
 
 //Path to a library.
-corevideo_library:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreVideo.framework
+corevideo_library:FILEPATH=/System/Library/Frameworks/CoreVideo.framework
 
 //Dependencies for target
 glfw_LIB_DEPENDS:STATIC=
 
 //Path to a library.
-iokit_library:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/IOKit.framework
+iokit_library:FILEPATH=/System/Library/Frameworks/IOKit.framework
 
 //Dependencies for the target
 nanogui_LIB_DEPENDS:STATIC=general;glfw;
 
 //Path to a library.
-opengl_library:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework
+opengl_library:FILEPATH=/System/Library/Frameworks/OpenGL.framework
 
 //Dependencies for target
 vecmath_LIB_DEPENDS:STATIC=
@@ -446,7 +446,7 @@ CORE_FOUNDATION_FRAMEWORK-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CORE_VIDEO_FRAMEWORK
 CORE_VIDEO_FRAMEWORK-ADVANCED:INTERNAL=1
 //Details about finding OpenGL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework][/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/System/Library/Frameworks/OpenGL.framework][/System/Library/Frameworks/OpenGL.framework][v()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Test HAS_CPP11_FLAG

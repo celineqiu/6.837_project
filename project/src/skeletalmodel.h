@@ -71,7 +71,7 @@ public:
     // and the current joint --> world transforms.
     void updateMesh();
 
-
+    Mesh* getMesh() { return &m_mesh; };
 
     void translateSkeleton(Matrix4f m);
 

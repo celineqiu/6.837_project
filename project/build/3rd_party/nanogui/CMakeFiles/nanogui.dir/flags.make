@@ -3,13 +3,13 @@
 
 # compile C with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
-C_FLAGS =  -Wno-deprecated-declarations -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk  
+C_FLAGS =  -Wno-deprecated-declarations -O3 -DNDEBUG  
 
 C_DEFINES = -DCORO_SJLJ -DNANOGUI_BUILD
 
 C_INCLUDES = -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/eigen" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/../glfw/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/nanovg/src" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/include" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/build/3rd_party/nanogui" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/nanogui/ext/coro" -I"/Users/helenzemelon/Documents/Fall 2017/837/6.837_project/project/3rd_party/glfw/include" 
 
-CXX_FLAGS =  --std=gnu++11 -g -Wall -Wno-unused-variable -Wall -Wextra -std=c++14 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk  
+CXX_FLAGS =  --std=gnu++11 -g -Wall -Wno-unused-variable -Wall -Wextra -std=c++14 -O3 -DNDEBUG  
 
 CXX_DEFINES = -DCORO_SJLJ -DNANOGUI_BUILD
 

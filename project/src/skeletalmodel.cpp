@@ -44,7 +44,6 @@ void SkeletalModel::draw(const Camera& camera, bool skeletonVisible)
     // (after an update() occurs, when the camera moves, the window is resized, etc)
 
     m_matrixStack.clear();
-    m_matrixStack.push(translate);
 
     glUseProgram(program);
     updateShadingUniforms();
@@ -284,8 +283,8 @@ void SkeletalModel::updateMesh()
 
 }
 
+
 void SkeletalModel::translateSkeleton(Matrix4f m)
 {
     translate = m;
 }
-

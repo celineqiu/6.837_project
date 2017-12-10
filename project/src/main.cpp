@@ -1,4 +1,5 @@
 #include "gl.h"
+
 #include <GLFW/glfw3.h>
 
 #include <cmath>
@@ -10,7 +11,7 @@
 
 #include <vecmath.h>
 #include <nanogui/nanogui.h>
-
+#include "timestepper.h"
 #include "starter_util.h"
 #include "camera.h"
 #include "vertexrecorder.h"
@@ -34,11 +35,15 @@ GLFWwindow* window;
 ng::Screen *screen;
 Vector3f g_jointangles[NJOINTS];
 string basepath;
-bool jumping;
+bool jumping = true;
+TimeStepper* timeStepper = new RK4();//new ForwardEuler(); // timeStepper = new Trapezoidal();
+float simulated_s;
+float h = 0.01f;
 
 class glfwtimer {
 public:
     void set() {
+        simulated_s = 0;
         freq = glfwGetTimerFrequency();
         start = glfwGetTimerValue();
     }
@@ -308,6 +313,7 @@ void initGUI(GLFWwindow* glfwwin) {
 }
 void freeGUI() {
     delete screen;
+    timeStepper = nullptr;
     screen = nullptr;
 }
 
@@ -329,13 +335,17 @@ void jumpingSkeleton(float elapsed_s) {
     updateMesh();
 }
 
+
 void runningSkeleton(float elapsed_s) {
 
+//    float y = 0.5f*abs(sinf(elapsed_s));
+//    Matrix4f m = Matrix4f::translation(0, y, 0);
+//    skeleton->translateSkeleton(m);
+
     // shoulders
-//    float rs = abs(cosf(elapsed_s/2.0f))*M_PI*0.5f;
-//    float ls = abs(sinf(elapsed_s/2.0f))*M_PI*0.5f;
-    skeleton->setJointTransform(12, M_PI*0.35f, 0, 0);
-    skeleton->setJointTransform(16, M_PI*0.35f, 0, 0);
+    float rs = (cosf(elapsed_s))*M_PI*0.35f;
+    skeleton->setJointTransform(12, rs, 0, 0);
+    skeleton->setJointTransform(16, -rs, 0, 0);
 
 //    // hips
 //    skeleton->setJointTransform(3, -M_PI*0.2f, 0, 0);
@@ -344,7 +354,7 @@ void runningSkeleton(float elapsed_s) {
     g_jointangles[5][0] = -(cosf(elapsed_s)+0.2)*M_PI*0.4f;
     skeleton->setJointTransform(5, g_jointangles[5].x(), g_jointangles[5].y(), g_jointangles[5].z());
 
-    g_jointangles[9][0] = +(cosf(elapsed_s)-0.2)*M_PI*0.4f;
+    g_jointangles[9][0] = (cosf(elapsed_s)-0.2)*M_PI*0.4f;
     skeleton->setJointTransform(9, g_jointangles[9].x(), g_jointangles[9].y(), g_jointangles[9].z());
 
 
@@ -359,8 +369,6 @@ void runningSkeleton(float elapsed_s) {
 
 void updateSkeleton() {
     if (skeleton) {
-
-
         // update animation
         float elapsed_s = timer.elapsed();
 
@@ -433,6 +441,13 @@ int main(int argc, char** argv)
         }
 
         updateSkeleton();
+
+        // step until simulated_s has caught up with elapsed_s.
+        while (simulated_s < timer.elapsed()) {
+            timeStepper->takeStep(skeleton->getMesh(), h);
+            simulated_s += h;
+        }
+
         skeleton->draw(camera, gDrawSkeleton);
 
         // Make back buffer visible

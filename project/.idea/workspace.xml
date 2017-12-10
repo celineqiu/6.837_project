@@ -2,11 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="a2" targetName="bin2c" />
       <config projectName="a2" targetName="a2" />
       <config projectName="a2" targetName="nanogui" />
-      <config projectName="a2" targetName="glfw" />
       <config projectName="a2" targetName="vecmath" />
+      <config projectName="a2" targetName="bin2c" />
+      <config projectName="a2" targetName="glfw" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -16,10 +16,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94990755-7d89-4c02-aca6-353f955b0dcc" name="Default" comment="copied from starter 2">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/context.c.o" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/context.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/init.c.o" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/init.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/input.c.o" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/input.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/monitor.c.o" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/monitor.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/posix_tls.c.o" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/posix_tls.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/window.c.o" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/window.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/libglfw3.a" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/libglfw3.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/resources/bin2c.c.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/resources/bin2c.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/nanogui_resources.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/button.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/checkbox.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorpicker.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/colorwheel.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/combobox.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/common.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/darwin.mm.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/darwin.mm.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/glutil.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/glutil.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/graph.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imagepanel.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/imageview.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/label.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/layout.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/messagedialog.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popup.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/popupbutton.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/progressbar.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/screen.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/serializer.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/serializer.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/slider.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/stackedwidget.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/stackedwidget.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabheader.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabheader.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/tabwidget.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/textbox.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/theme.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/vscrollpanel.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/widget.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/src/window.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/bin2c" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/bin2c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/libnanogui.a" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/libnanogui.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/3.9.2/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.9.2/CMakeDetermineCompilerABI_C.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/3.9.2/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.9.2/CMakeDetermineCompilerABI_CXX.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/3.9.2/CompilerIdC/a.out" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.9.2/CompilerIdC/a.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/3.9.2/CompilerIdCXX/a.out" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.9.2/CompilerIdCXX/a.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/3rd_party/lodepng/lodepng.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/camera.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/camera.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/joint.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/joint.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/main.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/main.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/matrixstack.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/matrixstack.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/mesh.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/mesh.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/skeletalmodel.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/skeletalmodel.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/starter_util.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/starter_util.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/vertexrecorder.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/src/vertexrecorder.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/a2" afterPath="$PROJECT_DIR$/build/a2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.o" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.o" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.o" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.o" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.o" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.o" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.o" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/libvecmath.a" afterPath="$PROJECT_DIR$/build/vecmath/libvecmath.a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/flags.make" afterPath="$PROJECT_DIR$/build/3rd_party/glfw/src/CMakeFiles/glfw.dir/flags.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/flags.make" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/flags.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/link.txt" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/bin2c.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make" afterPath="$PROJECT_DIR$/build/3rd_party/nanogui/CMakeFiles/nanogui.dir/flags.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeCache.txt" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/3.9.2/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.9.2/CMakeCCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/3.9.2/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.9.2/CMakeCXXCompiler.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/depend.internal" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/depend.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/flags.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/flags.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/link.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/a2.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/flags.make" afterPath="$PROJECT_DIR$/build/vecmath/CMakeFiles/vecmath.dir/flags.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mesh.cpp" afterPath="$PROJECT_DIR$/src/mesh.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mesh.h" afterPath="$PROJECT_DIR$/src/mesh.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/skeletalmodel.cpp" afterPath="$PROJECT_DIR$/src/skeletalmodel.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/skeletalmodel.h" afterPath="$PROJECT_DIR$/src/skeletalmodel.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/timestepper.cpp" afterPath="$PROJECT_DIR$/src/timestepper.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/timestepper.h" afterPath="$PROJECT_DIR$/src/timestepper.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,12 +119,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../src copy/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="328" column="8" lean-forward="false" selection-start-line="328" selection-start-column="4" selection-end-line="328" selection-end-column="8" />
+            <state relative-caret-position="-788">
+              <caret line="251" column="15" lean-forward="false" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mesh.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mesh.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="590">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding>
+                <element signature="e#31#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mesh.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mesh.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clothsystem.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../src copy/clothsystem.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1635">
+              <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,9 +169,11 @@
       <file leaf-file-name="timestepper.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/timestepper.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="500">
+              <caret line="76" column="34" lean-forward="false" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
+              <folding>
+                <element signature="e#43#67#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,52 +181,34 @@
       <file leaf-file-name="timestepper.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/timestepper.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="particlesystem.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../src copy/particlesystem.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mesh.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mesh.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mesh.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mesh.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="480">
+              <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
               <folding>
-                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#86#106#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="341" column="0" lean-forward="true" selection-start-line="341" selection-start-column="0" selection-end-line="341" selection-end-column="0" />
+            <state relative-caret-position="342">
+              <caret line="347" column="23" lean-forward="true" selection-start-line="347" selection-start-column="23" selection-end-line="347" selection-end-column="23" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="skeletalmodel.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/skeletalmodel.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="77" column="8" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+              <folding>
+                <element signature="e#49#67#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,18 +217,8 @@
       <file leaf-file-name="skeletalmodel.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/skeletalmodel.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="286" column="20" lean-forward="false" selection-start-line="286" selection-start-column="20" selection-end-line="286" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="skeletalmodel.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/skeletalmodel.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="75" column="9" lean-forward="false" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+            <state relative-caret-position="4125">
+              <caret line="280" column="43" lean-forward="false" selection-start-line="280" selection-start-column="43" selection-end-line="280" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -129,28 +228,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>timer</find>
-      <find>glfw</find>
-      <find>glfwtimer</find>
-      <find>GUI</find>
-      <find>cos</find>
-      <find>timescale</find>
-      <find>g_jointangles</find>
-      <find>updateLight</find>
-      <find>PI</find>
-      <find>while</find>
       <find>glfwPoll</find>
       <find>glfwPollE</find>
       <find>drawSystem</find>
       <find>drawJoints</find>
       <find>setJointT</find>
-      <find>draw</find>
       <find>updateMesh</find>
       <find>take</find>
       <find>case</find>
-      <find>mesh</find>
       <find>resetTime</find>
       <find>load</find>
+      <find>getState</find>
+      <find>getS</find>
+      <find>OPEN</find>
+      <find>draw</find>
+      <find>timeStepper</find>
+      <find>stepSys</find>
+      <find>free</find>
+      <find>stepSystem</find>
+      <find>elapsed_s</find>
+      <find>jumpingSkeleton</find>
+      <find>Mesh</find>
+      <find>m_mesh</find>
+      <find>skeleton</find>
+      <find>jumping</find>
+      <find>visible</find>
+      <find>translate</find>
+      <find>simulated_s</find>
+      <find>attachments</find>
+      <find>mesh</find>
+      <find>set()</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,14 +266,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/skeletalmodel.h" />
-        <option value="$PROJECT_DIR$/src/skeletalmodel.cpp" />
-        <option value="$PROJECT_DIR$/src/mesh.h" />
         <option value="$PROJECT_DIR$/../src copy/main.cpp" />
-        <option value="$PROJECT_DIR$/src/mesh.cpp" />
-        <option value="$PROJECT_DIR$/src/timestepper.cpp" />
+        <option value="$PROJECT_DIR$/src/mesh.h" />
+        <option value="$PROJECT_DIR$/../src copy/clothsystem.cpp" />
+        <option value="$PROJECT_DIR$/src/skeletalmodel.cpp" />
+        <option value="$PROJECT_DIR$/src/skeletalmodel.h" />
         <option value="$PROJECT_DIR$/src/timestepper.h" />
+        <option value="$PROJECT_DIR$/src/timestepper.cpp" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/mesh.cpp" />
       </list>
     </option>
   </component>
@@ -207,6 +315,11 @@
             <path>
               <item name="a2" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="a2" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -218,6 +331,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -270,12 +384,13 @@
       <option name="presentableId" value="Default" />
       <updated>1511836946468</updated>
       <workItem from="1511836948189" duration="488000" />
-      <workItem from="1511839440612" duration="11099000" />
+      <workItem from="1511839440612" duration="11720000" />
+      <workItem from="1512854325333" duration="11279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11587000" />
+    <option name="totallyTimeSpent" value="23487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -285,12 +400,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -338,11 +453,96 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../src copy/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4920">
+          <caret line="328" column="8" lean-forward="false" selection-start-line="328" selection-start-column="4" selection-end-line="328" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timestepper.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="e#43#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timestepper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="e#86#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/particlesystem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mesh.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+          <folding>
+            <element signature="e#31#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mesh.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/skeletalmodel.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4290">
+          <caret line="286" column="20" lean-forward="false" selection-start-line="286" selection-start-column="20" selection-end-line="286" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/skeletalmodel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="9" lean-forward="false" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+          <folding>
+            <element signature="e#49#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4455">
+          <caret line="297" column="29" lean-forward="true" selection-start-line="297" selection-start-column="29" selection-end-line="297" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/Model1.skel">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -350,7 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -358,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -366,7 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -374,9 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="246" column="23" lean-forward="false" selection-start-line="246" selection-start-column="12" selection-end-line="246" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -392,7 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="45" column="10" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -400,15 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="869" column="13" lean-forward="false" selection-start-line="869" selection-start-column="13" selection-end-line="869" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src copy/pendulumsystem.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -416,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -424,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -432,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -440,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -448,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -456,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1417">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -464,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -472,9 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#105#125#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -492,7 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -500,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -516,15 +688,113 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/r8/2m4djgqj6hdbcf19z5n85bvr0000gn/T/200904081131141933.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../src copy/pendulumsystem.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="75">
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/pendulumsystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/particlesystem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/particlesystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="33" column="11" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Model3.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14676">
+          <caret line="892" column="8" lean-forward="false" selection-start-line="892" selection-start-column="8" selection-end-line="892" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-788">
+          <caret line="251" column="15" lean-forward="false" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/timestepper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src copy/timestepper.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="67" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/timestepper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="e#86#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/skeletalmodel.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4125">
+          <caret line="280" column="43" lean-forward="false" selection-start-line="280" selection-start-column="43" selection-end-line="280" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mesh.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#31#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -536,112 +806,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../src copy/timestepper.cpp">
+    <entry file="file://$PROJECT_DIR$/src/timestepper.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src copy/timestepper.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="500">
+          <caret line="76" column="34" lean-forward="false" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
           <folding>
-            <element signature="e#43#63#0" expanded="true" />
+            <element signature="e#43#67#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src copy/particlesystem.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../src copy/clothsystem.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="153" column="15" lean-forward="false" selection-start-line="153" selection-start-column="15" selection-end-line="153" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timestepper.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mesh.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mesh.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timestepper.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src copy/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="328" column="8" lean-forward="false" selection-start-line="328" selection-start-column="4" selection-end-line="328" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src copy/particlesystem.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="1635">
+          <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/skeletalmodel.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="75" column="9" lean-forward="false" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/skeletalmodel.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="286" column="20" lean-forward="false" selection-start-line="286" selection-start-column="20" selection-end-line="286" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="542">
+          <caret line="77" column="8" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+          <folding>
+            <element signature="e#49#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="341" column="0" lean-forward="true" selection-start-line="341" selection-start-column="0" selection-end-line="341" selection-end-column="0" />
+        <state relative-caret-position="342">
+          <caret line="347" column="23" lean-forward="true" selection-start-line="347" selection-start-column="23" selection-end-line="347" selection-end-column="23" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mesh.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
