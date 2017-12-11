@@ -174,14 +174,6 @@ void Mesh::setState(std::vector<Vector3f> state, std::vector<Vector3f> velocitie
                                                       *springLength;
         }
 
-//        if (visibleVertices[i].y() < groundHeight) {
-//            visibleVertices[i] = Vector3f(visibleVertices[i].x(), groundHeight, visibleVertices[i].z());
-//        }
-//
-//        if (attachments[i][2] > 0.1 || attachments[i][1] > 0.1 || attachments[0][12] > 0.1 ) {//|| attachments[i][16] > 0.1) {
-//            visibleVertices[i] = currentVertices[i];
-//        }
-
         float k = middleOrNot[i];
 
         d = (visibleVertices[i]-currentVertices[i]);
