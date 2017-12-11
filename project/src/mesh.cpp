@@ -5,9 +5,12 @@
 using namespace std;
 
 const float springConstant = 8.0f;
-const float springLength = 0.01f;
+const float springLength = 0.009f;
 const float dragConstant = 1.0f;
 float groundHeight = 1.0f;
+bool print = true;
+
+std::vector<float> middleOrNot;
 
 void Mesh::load( const char* filename )
 {
@@ -25,7 +28,23 @@ void Mesh::load( const char* filename )
             if (v[1] < groundHeight) {
                 groundHeight = v[1];
             }
-		} else if (s == "f") {
+
+            Vector2f center = Vector2f(0.5, 0.675);
+            
+            float dist = (Vector2f(v[0], v[1])-center).abs();
+            float inner = 0.1f;
+            float outer = 0.18f;
+
+            if (dist <= inner) {
+                middleOrNot.push_back(0.0f);
+            } else if (dist <= outer) {
+                middleOrNot.push_back((dist - inner) / (outer-inner));
+            } else {
+                middleOrNot.push_back(1.0f);
+            }
+
+
+        } else if (s == "f") {
 			Tuple3u f;
 			in >> f[0] >> f[1] >> f[2];
 			faces.push_back(f);
@@ -35,6 +54,7 @@ void Mesh::load( const char* filename )
 	// make a copy of the bind vertices as the current vertices
 	currentVertices = bindVertices;
     visibleVertices = bindVertices;
+    larrysVertices = bindVertices;
 
 }
 
@@ -49,9 +69,9 @@ void Mesh::draw()
 
 	for (int i = 0; i < (int) faces.size(); ++i) {
 
-		Vector3f v0 = visibleVertices[faces[i][0]-1];
-		Vector3f v1 = visibleVertices[faces[i][1]-1];
-		Vector3f v2 = visibleVertices[faces[i][2]-1];
+		Vector3f v0 = larrysVertices[faces[i][0]-1];
+		Vector3f v1 = larrysVertices[faces[i][1]-1];
+		Vector3f v2 = larrysVertices[faces[i][2]-1];
 
 		Vector3f N = Vector3f::cross(v1-v0, v2-v0).normalized();
 
@@ -61,7 +81,6 @@ void Mesh::draw()
 	}
 
     rec.draw();
-
 
 }
 
@@ -90,10 +109,12 @@ void Mesh::loadAttachments( const char* filename, int numJoints )
         vector<float> attachment = attachments[i];
         float sum = 0;
         for (int j=0; j < attachment.size(); j++) {
-            sum += pow(attachment[j],2);
+            if (j != 2 || j != 1 || j!= 4 || j!= 8) {
+                sum += pow(attachment[j],2);
+            }
         }
 
-        particleSprings.push_back(Vector4f(i, i, springConstant/sum, springLength/sum));
+        particleSprings.push_back(Vector4f(i, i, springConstant/sum, springLength));
         currentVelocities.push_back(Vector3f());
     }
 
@@ -107,7 +128,7 @@ std::vector<Vector3f> Mesh::getVisState() {
     return visibleVertices;
 };
 
-Vector3f evalSpr(Vector3f pos, Vector3f pos2, float springConstant, float length) {
+Vector3f evalSpr(Vector3f pos, Vector3f pos2, float constant, float length) {
     Vector3f d = pos-pos2;
     // k(||d|| - r) * unit(d);
     if (springConstant == 0) {
@@ -115,9 +136,9 @@ Vector3f evalSpr(Vector3f pos, Vector3f pos2, float springConstant, float length
     }
 
     if (d.abs()-length > 2*length) {
-        return -springConstant*(2*length)*d.normalized();
+        return -constant*(2*length)*d.normalized();
     } else {
-        return -springConstant*(d.abs()-length)*d.normalized();
+        return -constant*(d.abs()-length)*d.normalized();
     }
 }
 
@@ -146,13 +167,30 @@ void Mesh::setState(std::vector<Vector3f> state, std::vector<Vector3f> velocitie
     currentVelocities = velocities;
 
     for (int i=0; i < visibleVertices.size(); i++) {
+        Vector3f v = bindVertices[i];
         Vector3f d = (visibleVertices[i]-currentVertices[i]);
-        if (d.abs() > 2*springLength) {
-            visibleVertices[i] = currentVertices[i] + d.normalized()*2*springLength;
+        if (d.abs() > 3*springLength) {
+            visibleVertices[i] = currentVertices[i] + d.normalized()*3
+                                                      *springLength;
         }
 
-        if (visibleVertices[i].y() < groundHeight) {
-            visibleVertices[i] = Vector3f(visibleVertices[i].x(), groundHeight, visibleVertices[i].z());
-        }
+//        if (visibleVertices[i].y() < groundHeight) {
+//            visibleVertices[i] = Vector3f(visibleVertices[i].x(), groundHeight, visibleVertices[i].z());
+//        }
+//
+//        if (attachments[i][2] > 0.1 || attachments[i][1] > 0.1 || attachments[0][12] > 0.1 ) {//|| attachments[i][16] > 0.1) {
+//            visibleVertices[i] = currentVertices[i];
+//        }
+
+        float k = middleOrNot[i];
+
+        d = (visibleVertices[i]-currentVertices[i]);
+
+
+        larrysVertices[i] = currentVertices[i]*(1-k) + visibleVertices[i]*k;
+
+
     }
+    print = false;
+
 };

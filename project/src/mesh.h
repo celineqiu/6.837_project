@@ -28,6 +28,10 @@ struct Mesh
     // current visible vertex positions after animation
     std::vector< Vector3f > visibleVertices;
 
+    // current visible vertex positions after animation
+    std::vector< Vector3f > larrysVertices;
+
+
 	// current vertex velocities after animation
 	std::vector< Vector3f > currentVelocities;
 
